@@ -1,0 +1,1770 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+                /* FIRST MINI-NAVBAR  */
+ 
+    #firstnav {
+     background: #202e5e;
+     
+    }
+    
+    #firstnav ul li {
+        list-style: none;
+    }
+    
+    #firstnav .firstNavIcons .fab {
+        color: rgb(255, 255, 255);
+        font-size: 1.1em;
+    }
+    
+    #firstnav .firstNavIcons .fa-facebook:hover {
+        color: #0210d3;
+    }
+
+    #firstnav .firstNavIcons .fa-twitter:hover {
+        color: #00acee;
+    }
+    #firstnav .firstNavIcons .fa-linkedin-in:hover {
+    color: #0072b1;
+    }
+    #firstnav .firstNavIcons .fa-google-plus-g:hover {
+    color: red;
+    }
+
+    #firstnav #midline {
+    border-left: 1px solid white;    
+    }
+
+    #firstnav ul li .dropdown .btn {
+    background-color: transparent;
+    color: white;
+    }
+
+    #firstnav ul li .dropdown .btn:hover, #firstnav ul li .dropdown .btn:focus {
+    background-color: rgb(255, 255, 255);
+    color: black;
+   
+    }
+
+    #firstnav .dropdown-toggle::after {
+        vertical-align: 0.1em;
+        
+    }
+
+    #firstnav a:not(.dropdown-item) {
+    text-decoration: none;
+    color: white;
+    }   
+
+    #firstnav .loginIcons .fas {
+    color: #c90203;
+    
+    }
+
+
+                /* FIRST MINI-NAVBAR ENDS */
+
+                /*2nd MAIN NAVBAR */
+
+    #Items .nav-item a {
+        color: #000000;  
+        transition: 300ms; 
+        font-size: 14px;
+    }
+    
+    #Items .nav-item a:hover {
+        color: blue;
+        font-size: 16px;
+    }
+
+    #Items li:last-child a {
+        color: white;
+        background: #1b9346;
+        padding: 8px 22px;
+        border-radius: 2px;
+
+    }
+
+
+
+
+
+                /*2nd MAIN NAVBAR ENDS*/
+
+
+                /* CAR NAVBAR SECTION */
+    #Carnav {
+        position: relative;
+        width: 100%;
+        height: 500px;
+    }
+                
+    #Carnav:before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: url(../images/Car-bg.png) no-repeat center center/cover;
+        z-index: -1;
+        
+    }
+    
+    #Carnav {
+        color: white;
+    }
+
+    #Carnav h1 {
+        font-size: 38px;
+        
+    }
+
+    
+
+    /* #Carnav #dropdowns  {
+        background-color: white;
+
+    } */
+
+    #Carnav > div:first-of-type >  div:first-of-type  >  div:first-of-type{
+        background-color:rgba(0, 0, 0, 0.4);
+    
+    }
+    
+    #Carnav #dropdowns button, #Carnav #dropdowns #searchBtn {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #Carnav #dropdowns .btn {
+        border-radius: 0;
+        border-right: 1px solid white;
+        transition: 500ms;
+    }
+    
+
+    #Carnav #dropdowns .btn-secondary {
+        background-color: white;
+        color: black;
+        border-color: #d8dde6;
+    }
+    
+    #Carnav #dropdowns .dropdown-toggle::after {
+        margin-left: 9em;
+        vertical-align: 0.1em;
+        color:#6d7e9c;
+    }
+
+/* 
+    #Carnav #searchBtn {
+       
+        
+        margin: auto;
+        
+    } */
+
+  
+    #Carnav #searchBtn a{
+        color: white;
+        text-decoration: none;
+        background-color: #1b9346;
+        padding: 9px 75px 10px 75px;
+        transition: 500ms;
+    }
+
+
+    #Carnav #searchBtn a:hover {
+        background-color: #11612e;
+    }
+
+
+    #Carnav #dropdowns .dropdown .btn:hover, #Carnav #dropdowns .dropdown .btn:focus {
+        box-shadow: inset 0 0 5px 3px rgb(73, 152, 243);
+    }
+
+                
+                /* CAR NAVBAR SECTION ENDS */
+
+
+
+                /* NEW CARS SECTION  */
+
+
+    #NewCars {
+        background-color: #f1f5fd;
+    }
+
+
+
+
+    /* CAR SLIDER SECTION */
+
+    
+    #NewCars #Carslider .owl-carousel {
+        transform:translateY(-110px);
+    }
+    
+    #NewCars #Carslider .owl-carousel .owl-nav {
+        transform: translateY(-170px);
+        position: relative;
+    }
+
+    #NewCars #Carslider .owl-carousel .owl-nav button.owl-prev, #NewCars #Carslider .owl-carousel .owl-nav button.owl-next{
+        background: white;
+        width: 35px;
+        border-radius: 100%;
+        position: absolute;
+        
+    }
+    
+    #NewCars #Carslider .owl-carousel .owl-nav button.owl-prev:hover, #NewCars #Carslider .owl-carousel .owl-nav button.owl-next:hover{
+        color: rgb(255, 255, 255);
+        background-color: black;
+
+    }
+
+    #NewCars #Carslider .owl-carousel .owl-nav button.owl-prev {
+       left: -25px;
+    }
+
+    #NewCars #Carslider .owl-carousel .owl-nav button.owl-next {
+        right: -25px;
+    }
+
+    #NewCars #Carslider .owl-carousel .owl-nav button span {
+        font-size: 25px;
+        opacity: 0.7;
+        
+    }
+    
+    #NewCars #Carslider .owl-carousel .owl-nav button span:hover {
+       color: rgb(255, 255, 255);
+    }
+
+
+    #NewCars #Carslider .card {
+        transition: 500ms;
+    }
+
+    #NewCars #Carslider .card:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    }
+    
+    #NewCars #Carslider .pkr {
+        background-color: #202e5e;
+        clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 99%, 0% 100%);
+        top: 15px;
+        font-size: 15px;
+    }
+
+    #NewCars #Carslider .pkr.red {
+        background-color: #c50102;
+    }
+    
+    #NewCars #Carslider .used {
+        background-color: #868e96;
+        bottom: 105px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    #NewCars #Carslider .new {
+        background-color: #1b9346;
+        bottom: 105px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    #NewCars #Carslider .stars {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #f1c40f;
+        bottom: 105px;
+        right: 15px;
+        font-size: 12px;
+
+    }
+
+    #NewCars #Carslider .stars i:nth-child(n+4)  {
+        color: #83829c;
+    }
+
+    #NewCars #Carslider .card-body a:first-child {
+        text-decoration: none;
+        
+    }
+    
+    #NewCars #Carslider .card-body h5 {
+        color: #45546b;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    #NewCars #Carslider .card-body h5:hover {
+        color: rgb(26, 84, 207);
+    }
+
+    #NewCars #Carslider .card-body span {
+        font-size: 0.8em;
+    }
+
+    #NewCars .card-body span a {
+        text-decoration: none;
+        color: #6c757d;
+        
+    }
+
+    #NewCars .card-body span a:hover {
+  
+        color: #e20c0c;
+        
+    }
+
+/*  CUSTOM EDITING IN BOOTSTRAP CAROUSEL 
+
+    
+    .carousel-control-prev-icon {
+        background-image: url(/images/chevron-circle-left-solid.svg);  
+         
+    }
+    
+    .carousel-control-next-icon {
+        background-image: url(/images/chevron-circle-right-solid.svg);   
+        
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 30px;
+        width: 30px;
+        filter: invert(100%);
+    }
+    
+    .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+        filter: grayscale();
+    }
+  
+    #NewCars #Carslider .carousel-control-prev {
+        left: -85px;
+        opacity: 1;
+        
+    }
+
+    #NewCars #Carslider .carousel-control-next {
+        right: -85px;
+        opacity: 1;
+    } */
+
+
+    /* CAR SLIDER SECTION ENDS */
+
+    /* ADVERTISEMENT SECTION */
+
+    #NewCars #advertisee {
+        background-color: #212f62;
+        height: 370px;
+        
+    }
+    
+    #NewCars #advertisee h1 {
+        line-height: 1em;
+    }
+    
+    #NewCars #advertisee .fa-check-circle {
+        font-size: 25px;
+        vertical-align: middle;
+    }
+    
+    #NewCars #advertisee ul li{
+        list-style: none;
+
+    }
+    #NewCars #advertisee ul li:last-child a{
+        text-decoration: none;
+        color: white;
+        background: #1b9346;
+        padding: 8px 35px;
+        border-radius: 2px;
+        transition: 500ms;
+        
+    }
+    
+    #NewCars #advertisee ul li:last-child a:hover{
+        color: blue;
+        font-size: 18px;
+        
+    }
+
+    #NewCars #advertisee img {
+        transform: translateY(-32px);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    /* ADVERTISEMENT SECTION ENDS */
+
+
+    /* FEATURES NEW CARS SECTION */
+   
+    #featuredNewCars > h1:first-child {
+        font-family: 'PT Sans', sans-serif;
+    }
+    
+    #featuredNewCars > h1:first-child:after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid #e72a1a;
+        width: 9.2%;
+        bottom: -15px;
+        left: calc(50% - 55px);
+    }
+
+    #NewCars #featuredNewCars .sliderTwo .owl-carousel {
+        transform:translateY(0);
+    }
+
+    #NewCars #featuredNewCars .sliderTwo .pkr {
+        background:linear-gradient(#4983c4, #075baa);
+        clip-path: polygon(0% 0%, 80% 0, 100% 50%, 80% 99%, 0% 100%);
+        
+    }
+    
+    #NewCars #featuredNewCars .sliderTwo .used {
+        background-color: #868e96;
+        bottom: 155px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    #NewCars #featuredNewCars .sliderTwo .new {
+        background-color: #1b9346;
+        bottom: 155px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    #NewCars #featuredNewCars .card-body span a {
+        text-decoration: none;
+        color: #6c757d;
+        
+    }
+
+    #NewCars #featuredNewCars .card-body span a:hover {
+  
+        color: #e20c0c;
+        
+    }
+    
+
+    #NewCars #featuredNewCars .card-body .fa-map-marker-alt  {
+        color: red;
+    }
+
+    #NewCars #featuredNewCars .card-body .featuredPKR  {
+        color: #01c513;
+    }
+    
+    #NewCars #featuredNewCars .card-body .ratings  {
+        background-color: #c90202;
+        font-size: 14px;
+    }
+
+    #NewCars #featuredNewCars .card-body .stars  {
+        background-color: transparent;
+        bottom: 20px;
+        font-size: 12px;
+    }
+    
+    #NewCars #featuredNewCars .card-body .reviews  {
+        color: black;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    /* FEATURES NEW CARS SECTION ENDS */
+
+                /* NEW CARS SECTION ENDS */
+
+            /* FEATURES USED CARS SECTION  */
+
+    #UsedCars #Carslider .owl-carousel {
+        transform:translateY(-110px);
+    }
+    
+    #UsedCars #Carslider .owl-carousel .owl-nav {
+        transform: translateY(-170px);
+        position: relative;
+    }
+
+    #UsedCars #Carslider .owl-carousel .owl-nav button.owl-prev, #UsedCars #Carslider .owl-carousel .owl-nav button.owl-next{
+        background: white;
+        width: 35px;
+        border-radius: 100%;
+        position: absolute;
+        
+    }
+    
+    #UsedCars #Carslider .owl-carousel .owl-nav button.owl-prev:hover, #UsedCars #Carslider .owl-carousel .owl-nav button.owl-next:hover{
+        color: rgb(255, 255, 255);
+        background-color: black;
+
+    }
+
+    #UsedCars #Carslider .owl-carousel .owl-nav button.owl-prev {
+       left: -25px;
+    }
+
+    #UsedCars #Carslider .owl-carousel .owl-nav button.owl-next {
+        right: -25px;
+    }
+
+    #UsedCars #Carslider .owl-carousel .owl-nav button span {
+        font-size: 25px;
+        opacity: 0.7;
+        
+    }
+    
+    #UsedCars #Carslider .owl-carousel .owl-nav button span:hover {
+       color: rgb(255, 255, 255);
+    }
+
+
+    #UsedCars #Carslider .card {
+        transition: 500ms;
+    }
+
+    #UsedCars #Carslider .card:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    }
+    
+    #UsedCars #Carslider .pkr {
+        background-color: #202e5e;
+        clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 99%, 0% 100%);
+        top: 15px;
+        font-size: 15px;
+    }
+
+    
+    #UsedCars #Carslider .used {
+        background-color: #868e96;
+        bottom: 105px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    #UsedCars #Carslider .new {
+        background-color: #1b9346;
+        bottom: 105px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    
+
+
+    #UsedCars #Carslider .card-body a:first-child {
+        text-decoration: none;
+        
+    }
+
+    #UsedCars #Carslider .card-body span a {
+        text-decoration: none;
+        color: #6c757d;
+        
+    }
+
+    #UsedCars #Carslider .card-body span a:hover {
+  
+        color: #e20c0c;
+        
+    }
+    
+    #UsedCars #Carslider .card-body h5 {
+        color: #45546b;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    #UsedCars #Carslider .card-body h5:hover {
+        color: rgb(26, 84, 207);
+    }
+
+    #UsedCars #Carslider .card-body span {
+        font-size: 0.8em;
+    }
+
+    #UsedCars #featuredUsedCars > h1:first-child {
+        font-family: 'PT Sans', sans-serif;
+    }
+    
+    #UsedCars #featuredUsedCars > h1:first-child:after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid #e72a1a;
+        width: 9.2%;
+        bottom: -15px;
+        left: calc(50% - 55px);
+    }
+
+    #UsedCars #featuredUsedCars .sliderThree .owl-carousel {
+        transform:translateY(0);
+    }
+
+    #UsedCars #featuredUsedCars .sliderThree .pkr {
+        background:linear-gradient(#4983c4, #075baa);
+        clip-path: polygon(0% 0%, 80% 0, 100% 50%, 80% 99%, 0% 100%);
+        
+    }
+    
+    #UsedCars #featuredUsedCars .sliderThree .used {
+        background-color: #868e96;
+        bottom: 115px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    #UsedCars #featuredUsedCars .sliderThree .new {
+        background-color: #1b9346;
+        bottom: 115px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    #UsedCars #featuredUsedCars .card-body .fa-map-marker-alt  {
+        color: red;
+    }
+
+    #UsedCars #featuredUsedCars .card-body .featuredPKR  {
+        color: #01c513;
+    }
+ 
+    
+             /* FEATURES USED CARS SECTION ENDS */
+
+
+
+
+            /* TOP CITIES SECTION  */
+
+        #Cities {
+            background-color: #f1f5fd;
+           
+        }
+
+        #Cities h1 {
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        #Cities h1:first-of-type:after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 9.2%;
+            bottom: -15px;
+            left: calc(50% - 55px);
+        }
+        
+
+        #Cities a {
+            text-decoration: none;
+            transition: 500ms;
+        }    
+
+        #Cities a:hover {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            
+        }
+        
+        #Cities figcaption {
+            transition: 500ms;
+
+        }
+
+        #Cities figcaption:hover {
+            color: rgb(0, 0, 0);
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+        
+
+            /* TOP CITIES SECTION ENDS */
+
+
+             /* CAR COMPARISION SECTION */
+
+        #CarCompare h1 {
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        #CarCompare h1:first-of-type:after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 9.2%;
+            bottom: -15px;
+            left: calc(50% - 55px);
+        }
+    
+        #CarCompare table{
+            border-collapse: collapse;
+            border: 1px solid #d8dde6;
+            transition: 500ms;
+        }
+        
+        #CarCompare table:hover{
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+
+        #CarCompare table tr th a{
+            color: #1e4072;
+            font-size: 16px;
+            line-height: 1.1em;
+            text-decoration: none;
+        }
+        
+        #CarCompare table tr th a:hover{
+            color: rgb(41, 98, 221);
+
+        }
+
+        #CarCompare table tr td.costs{
+            font-size: 14px;
+            font-weight: 600;
+            
+        }
+        
+        #CarCompare table tr td.VS a{
+            padding: 10px 17%;
+            background-color: #1b9346;
+            font-size: 14px;
+            text-decoration: none;
+            transition: 500ms;
+        }
+        
+        #CarCompare table tr td.VS a:hover{
+            background-color: #11612e;
+        }
+
+        #CarCompare .fa-exchange{
+            left: 44.5%;
+            top: 45px;
+            font-size: 18px;
+            padding: 12px;
+            border-radius: 100%;
+            background-color: #c90203;
+        
+        }
+            /* CAR COMPARISION SECTION ENDS */
+
+
+            /* FOOTER */
+        #footer {
+            background-color: black;
+        }
+
+            /* FOOTER TOP */
+        footer .footer-top {
+            border-bottom: 1px solid #1b2027 ;
+        }
+        
+        footer .footer-top #Contact form input:first-child {
+            font-size: 14px;
+            caret-color: red;
+            border-radius: 2px;
+            padding: 10px;
+            border-top-right-radius: 0 ;
+            border-bottom-right-radius:  0;
+            border-right: 1px solid #c30001;
+            color: black;
+            font-family: "ProximaNova-Regular", Helvetica, sans-serif;
+            transition: 500ms;
+        }
+
+        footer .footer-top #Contact form .btn-primary {
+            background-color: #c30001;
+            border: #c30001;
+            padding: 10px;
+            border-radius: 2px;
+            border-top-left-radius: 0 ;
+            border-bottom-left-radius:  0;
+            font-size: 15px;
+            transition: 500ms;
+        }
+        
+        footer .footer-top #Contact form .btn-primary:hover {
+            background-color: #880a0a;
+        }
+
+        footer .footer-top section h5 {
+            font-size: 18px;
+            position: relative;
+        }
+        
+        footer .footer-top section h5::after {
+            content: "";
+            position: absolute;
+            width: 24%;
+            border-bottom: 1px solid red;
+            bottom: 23px;
+            left: 0;
+        }
+
+        footer .footer-top  #Follow h5:last-of-type::after {
+            content: "";
+            position: absolute;
+            width: 24%;
+            border-bottom: 1px solid red;
+            bottom: 23px;
+            left: 0;
+        }
+
+
+        footer .footer-top section ul li a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #a0a0a0;
+        }
+        
+        footer .footer-top section ul li a:hover {
+            color: white;
+        }
+
+        footer .footer-top section ul li .footerIcon {
+            color: red;
+        }
+
+        footer .footer-top section ul li .footerSocialIcons {
+            font-size: 22px;
+            color: white;
+            
+        }
+
+        
+        
+        footer .footer-top section ul li .footerSocialIcons .fa-facebook-f {
+            background-color: #3b5998;
+            padding: 10px 14px;
+            border-radius: 100%;
+            transition: 500ms;
+        }  
+        
+        footer .footer-top section ul li .footerSocialIcons .fa-facebook-f:hover {
+            background-color: rgb(255, 255, 255);
+            color: #3b5998;
+            
+        }  
+        
+        footer .footer-top section ul li .footerSocialIcons .fa-linkedin-in {
+            background-color: #007ab9;
+            padding: 10px 11px;
+            border-radius: 100%;
+            transition: 500ms;
+        }   
+
+        footer .footer-top section ul li .footerSocialIcons .fa-linkedin-in:hover {
+            background-color: rgb(255, 255, 255);
+            color: #007ab9;
+            
+        }  
+
+        footer .footer-top section ul li .footerSocialIcons .fa-twitter {
+            background-color: #55acee;
+            padding: 10px 10px;
+            border-radius: 100%;
+            transition: 500ms;
+        }   
+
+        footer .footer-top section ul li .footerSocialIcons .fa-twitter:hover {
+            background-color: rgb(255, 255, 255);
+            color: #55acee;
+            
+        }  
+
+        footer .footer-top section ul li .footerSocialIcons .fa-google-plus-g {
+            background-color: #dc4e41;
+            padding: 10px 7px;
+            border-radius: 100%;
+            transition: 500ms;
+        }    
+
+        footer .footer-top section ul li .footerSocialIcons .fa-google-plus-g:hover {
+            background-color: rgb(255, 255, 255);
+            color: #dc4e41;
+            
+        }  
+
+        footer .footer-top section .badges img {
+            height: 50px;
+            width: 132px;
+
+        }
+
+
+       
+
+       
+
+
+
+
+       
+            /* FOOTER TOP ENDS */
+
+            /* FOOTER BOTTOM */
+            
+        footer #bottom p {
+            color: white;
+            font-size: 14px;
+        }
+
+        footer #bottom p span {
+            color: #8f1911;
+            font-size: 14px;
+        }
+
+
+            /* FOOTER BOTTOM ENDS */
+            
+
+
+
+            /* FOOTER ENDS */
+
+
+            /* SCROLL TO TOP BUTTON  */
+            
+        #scrolltotop {
+            display: none;
+        }
+            
+        .fa-arrow-circle-up {
+            position:fixed ;
+            bottom: 15px;
+            right: 15px;
+            font-size: 1.6em;  
+            transition: 1s;
+            color: rgb(255, 0, 0);
+            padding: 3px 5px 3px 5px;
+            animation: ScrbtnUp 0.5s ease-in-out 0s 1;
+                
+                
+                   
+        }
+            
+        @keyframes ScrbtnUp{
+            from {
+                bottom: -20px;
+            }
+        
+            to {
+                bottom: 15px;
+            }
+        }
+            
+        .fa-arrow-circle-up:hover {
+            background-color: #555;
+            transform:translateY(-20px);
+        }
+
+
+        
+            /* SCROLL TO TOP BUTTON ENDS */
+
+
+                /* MEDIA QUERIES */
+
+
+
+                /* LARGE SCREEN - LG  */
+
+@media (min-width:992px) and (max-width: 1200px){
+    
+/* CAR NAV  */
+    #Carnav > div:first-of-type >  div:first-of-type {
+        padding-bottom: 7rem;
+
+    }
+
+    #Carnav #searchBtn a{
+        padding: 9px 70px 10px 70px;
+       
+    }
+
+    /* NEW CARS SECTION */
+
+/* CAR SLIDER  */
+
+    /* #NewCars #Carslider {
+    height: 300px;
+    } */
+
+    /* #NewCars #Carslider .owl-carousel .card {
+        height: 242px;
+    } */
+
+    /* .owl-carousel .owl-item img {
+        height: 242px;
+    }
+          */
+
+    #NewCars #Carslider .card-body h5 {
+    font-size: 1em;
+    }
+    
+    #NewCars #Carslider .card-body span {
+    font-size: 0.7em;
+    }
+    
+
+    /* FEATURED NEWS CARS  */
+
+    #NewCars #featuredNewCars .card-body .ratings {
+        font-size: 0.7em;
+
+    }
+
+    #NewCars #featuredNewCars .card-body .stars {
+        font-size: 0.7em;
+
+    }
+
+    #NewCars #featuredNewCars .card-body .reviews {
+        font-size: 11px;
+
+    }
+
+    #NewCars #featuredNewCars .sliderTwo .used {
+        background-color: #868e96;
+        bottom: 135px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    #NewCars #featuredNewCars .sliderTwo .new {
+        background-color: #1b9346;
+        bottom: 135px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    
+    
+
+    /* FEATURED NEWS CARS ENDS */
+
+    
+            /* NEW CARS SECTION ENDS */
+
+
+
+
+            /* FEATURED USED CARS */
+    #UsedCars #featuredUsedCars  #Carslider .card-body h5 {
+        font-size: 1em;
+    }
+                
+    #UsedCars #featuredUsedCars .sliderThree .used {
+        bottom: 100px;
+        
+    }
+
+    #UsedCars #featuredUsedCars .sliderThree .new {
+        bottom: 100px;
+       
+    }
+
+    #UsedCars #featuredUsedCars > h1:first-child:after {
+        width: 12%;
+    }
+  
+    #UsedCars #featuredUsedCars  .card-body span {
+        font-size: 0.7em;
+    }
+    
+            /* FEATURED USED CARS ENDS */
+
+
+            /* TOP CITIES SECTION  */
+
+            #Cities h1:first-of-type:after {
+                width: 11%;
+               
+            }
+            /* TOP CITIES SECTION ENDS */
+
+
+
+             /* CAR COMPARISION SECTION */
+
+        #CarCompare h1:first-of-type:after {
+            width: 12%;
+            
+        }
+
+        #CarCompare table tr td.VS a{
+            padding: 10px 10%;
+            background-color: #1b9346;
+            font-size: 14px;
+        }
+
+        #CarCompare .fa-exchange{
+            left: 44.5%;
+            top: 38px;
+            font-size: 16px;
+            padding: 10px;
+            border-radius: 100%;
+            background-color: #c90203;
+        
+        }
+             /* CAR COMPARISION SECTION ENDS */
+
+
+                /* FOOTER */
+                /* FOOTER TOP */
+
+        footer .footer-top #Contact form input:first-child {
+            font-size: 12px;
+        }
+
+        footer .footer-top #Contact form .btn-primary{
+            font-size: 13px;
+        }
+        
+
+        footer .footer-top section ul li .footerSocialIcons {
+            font-size: 18px;
+                 
+        }
+
+        footer .footer-top section .badges img {
+            height: 50px;
+            width: 110px;
+
+        }
+
+        footer .footer-top section h5::after {
+            width: 29%;
+        }
+
+        footer .footer-top  #Follow h5:last-of-type::after {
+            width: 37%;
+        }
+
+                /* FOOTER TOP ENDS*/
+                /* FOOTER */
+
+
+
+
+}
+
+
+                /* MEDIUM SCREEN - MD  */
+
+
+
+
+
+@media (min-width:768px) and (max-width: 991px){
+/* MAIN NAVBAR     */
+    #Items li:last-child a {
+        display: inline-block;
+        
+    }
+
+/* CAR NAVBAR SECTION */
+
+    #Carnav > div:first-of-type >  div:first-of-type {
+    padding-bottom: 7rem;
+
+    }
+
+    #Carnav #dropdowns .dropdown-toggle::after {
+    margin-left: 4em;
+    
+    }   
+
+    #Carnav #searchBtn a{
+    color: white;
+    text-decoration: none;
+    background-color: #1b9346;
+    padding: 10px 50px;
+    transition: 500ms;
+    }
+
+
+
+                /* NEW CARS SECTION  */
+
+                /* CAR SLIDERS */
+                
+    /* #NewCars #Carslider .owl-carousel .card {
+        height: 242px;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 242px;
+    } */
+              
+    #NewCars #Carslider .pkr {
+        font-size: 13px;
+    }
+
+    #NewCars #Carslider .card-body h5 {
+
+        font-size: .9em;
+    }
+
+    #NewCars #Carslider .card-body span {
+        font-size: 0.7em;
+    }
+
+
+
+                /* ADVERTISEMENT SECTION */
+
+    #NewCars #advertisee h1 {
+        font-size: 1.7em;
+    }
+
+    #NewCars #advertisee ul li{
+        font-size: 0.9em;
+    }
+
+
+
+                
+                /* FEATURED NEWS CARS  */
+
+     
+    #featuredNewCars > h1:first-child:after {
+            width: 15%;
+    }
+
+    #NewCars #featuredNewCars .card-body .ratings {
+        font-size: 0.7em;
+
+    }
+
+    #NewCars #featuredNewCars .card-body .stars {
+        font-size: 0.7em;
+
+    }
+
+    #NewCars #featuredNewCars .card-body .reviews {
+        font-size: 10px;
+
+    }
+
+    #NewCars #featuredNewCars .sliderTwo .used {
+        background-color: #868e96;
+        bottom: 135px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+    #NewCars #featuredNewCars .sliderTwo .new {
+        background-color: #1b9346;
+        bottom: 135px;
+        left: 15px;
+        font-size: 14px;
+    }
+
+
+                /* FEATURED NEWS CARS ENDS */
+
+
+
+                /* NEW CARS SECTION ENDS */
+
+
+                /* FEATURED USED CARS  SECTION*/
+    #UsedCars #featuredUsedCars .card-body h5 {
+        font-size: .9em;
+    }   
+
+    #UsedCars #featuredUsedCars .sliderThree .used {
+        bottom: 100px;
+        
+    }
+
+    #UsedCars #featuredUsedCars .sliderThree .new {
+        bottom: 100px;
+       
+    }
+
+    #UsedCars #featuredUsedCars > h1:first-child:after {
+     width: 14%;
+    }
+    
+    #UsedCars #featuredUsedCars  .card-body span {
+        font-size: 0.7em;
+    }
+                /* FEATURED USED CARS SECTION ENDS */
+
+    #Cities h1:first-of-type:after {
+        width: 20%;
+                   
+    }
+                /* TOP CITIES SECTION ENDS */
+
+
+             /* CAR COMPARISION SECTION */
+
+    #CarCompare h1:first-of-type:after {
+        width: 18%;
+            
+    }
+
+    #CarCompare .fa-exchange{
+        left: 44.5%;
+        top: 38px;
+    
+    }
+
+    #CarCompare table tr td.VS a {
+        padding: 10px 15%;
+        font-size: 14px;
+    }
+    
+             /* CAR COMPARISION SECTION ENDS */
+
+
+                /* FOOTER */
+                /* FOOTER TOP */
+
+    footer .footer-top section h5 {
+        font-size: 17px;
+
+    }
+                
+    footer .footer-top section ul li .footerSocialIcons {
+        font-size: 16px;
+        
+    }
+
+    footer .footer-top section ul li .footerSocialIcons .fa-facebook-f {
+     
+        padding: 10px 10px;
+    
+    }  
+
+    footer .footer-top section ul li .footerSocialIcons .fa-linkedin-in {
+       
+        padding: 10px 9px;
+    
+    } 
+
+    footer .footer-top section ul li .footerSocialIcons .fa-twitter {
+       
+        padding: 10px 8px;
+    
+    }   
+
+    footer .footer-top section ul li .footerSocialIcons .fa-google-plus-g {
+       
+        padding: 10px 5px;
+    
+    }    
+
+    footer .footer-top section .badges img {
+        height: 50px;
+        width: 150px;
+
+    }
+
+    footer .footer-top section h5::after {
+        width: 37%;
+    }
+
+    footer .footer-top  #Follow h5:last-of-type::after {
+        width: 37%;
+    }
+
+    footer .footer-top #Contact form input:first-child {
+        font-size: 12px;
+    }
+
+    footer .footer-top #Contact form .btn-primary {
+        font-size: 13px;
+    }
+
+
+                /* FOOTER TOP ENDS*/
+                /* FOOTER */
+
+}
+
+
+
+
+                /* SMALL SCREEN - SM  */
+
+
+
+
+
+@media (min-width:576px) and (max-width: 767px){
+
+/* MAIN NAVBAR     */
+    #Items li:last-child a {
+        display: inline-block;
+        
+    }
+
+/* CAR NAVBAR SECTION */
+    #Carnav > div:first-of-type >  div:first-of-type {
+    padding-bottom: 7rem;
+
+    }
+
+    #Carnav #dropdowns .dropdown-toggle::after {
+        margin-left: 1.3em;
+        
+    }
+
+    #Carnav #searchBtn {
+        background-color: #1b9346;
+        margin: auto;
+        transition: 500ms;
+    }
+
+    #Carnav h1 {
+        font-size: 30px;
+        
+    }
+
+    #Carnav #searchBtn a{
+        color: white;
+        text-decoration: none;
+        background-color: #1b9346;
+        padding: 10px 30px;
+        transition: 500ms;
+    }
+    
+
+                 /* NEW CARS SECTION  */
+
+                /* CAR SLIDERS */
+
+    #NewCars #Carslider .owl-carousel .owl-nav {
+        transform: translateY(-161px);
+    }
+
+
+
+                /* ADVERTISEMENT SECTION */
+    #NewCars #advertisee {
+        background-color: #212f62;
+        height:min-content;
+                    
+    }
+
+    #NewCars #advertisee h1 {
+        font-size: 1.6em;
+    }
+                /* ADVERTISEMENT SECTION ENDS */
+
+
+            /* FEATURED NEWS CARS  */
+
+     
+    #featuredNewCars > h1:first-child:after {
+        width: 21%;
+    }
+
+    #NewCars #featuredNewCars .card-body .stars {
+        font-size: 11px;
+    }
+
+            /* FEATURED NEWS CARS ENDS */
+
+
+
+                /* NEW CARS SECTION ENDS */
+
+            /* FEATURED USED CARS  SECTION */
+
+    #UsedCars #featuredUsedCars > h1:first-child:after {
+        width: 23%;
+    }
+             /* FEATURED USED CARS ENDS */
+
+             /* TOP CITIES SECTION */
+
+    #Cities h1:first-of-type:after {
+        width: 25%;
+               
+    }
+            /* TOP CITIES SECTION ENDS */
+
+
+         /* CAR COMPARISION SECTION */
+
+    #CarCompare h1:first-of-type:after {
+        width: 21%;
+            
+    }
+
+    #CarCompare table tr img {
+        height: 130px;
+
+    }
+
+    #CarCompare table tr th a {
+        font-size: 13px;
+    }
+    
+    #CarCompare table tr td.VS a {
+        padding: 10px 3%;
+        font-size: 12px;
+    }
+
+    #CarCompare .fa-exchange{
+        left: 44%;
+        top: 49px;
+        font-size: 14px;
+        padding: 10px;
+    
+    }
+
+
+            /* CAR COMPARISION SECTION ENDS */
+
+            /* FOOTER */
+            /* FOOTER TOP */
+
+
+    footer .footer-top section h5 {
+        font-size: 22px;
+    }
+
+    footer .footer-top section h5::after {
+        width: 30%;
+        left: 179px;
+    }
+
+    footer .footer-top #Follow h5:last-of-type::after {
+        width: 30%;
+        left: 179px;
+    }
+
+  
+    
+    footer .footer-top #Contact form input:first-child {
+        font-size: 16px;
+    }
+
+    footer .footer-top #Contact form .btn-primary {
+        font-size: 16px;
+    }
+
+    footer .footer-top section ul li a {
+        font-size: 16px;
+
+    }
+
+    footer .footer-top section .badges img {
+        height: 50px;
+        width: 150px;
+
+    }
+            /* FOOTER TOP ENDS*/
+            /* FOOTER */
+
+}
+
+
+
+
+
+                /* EXTRA SMALL (MOBILE SCREEN) - COL  */
+@media (max-width:575px){
+
+/* FIRSTNAV MINI BAR     */
+
+    #firstnav, #firstnav .dropdown button {
+    font-size: 14px;
+    
+   }
+   
+
+    #firstnav .firstNavIcons .fab {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    }
+
+/* MAIN NAVBAR */
+    #Items li:last-child a {
+    display: inline-block;
+    
+    }
+
+/* CAR NAV */
+    #Carnav {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    }
+
+    #Carnav h1 {
+        font-size: 20px;
+        
+    }
+
+    #Carnav p {
+        font-size: 14px;
+        
+    }
+
+    #Carnav .dropdown {
+        width: 100%;
+    }
+
+    #Carnav #dropdowns .dropdown-toggle::after {
+        margin-left: .5em;
+        
+    }
+
+                /* NEW CARS SECTION  */
+                /* CAR SLIDER */
+    #NewCars #Carslider {
+        height: 300px;
+    }
+
+    #NewCars #Carslider .card-body span {
+        font-size: 1em;
+    }
+
+    #NewCars #Carslider .owl-carousel .owl-nav {
+        transform: translateY(-190px);
+    }
+    
+      
+    #NewCars #Carslider .owl-carousel {
+        transform:translateY(-50px);
+    }
+
+                /* ADVERTISEMENT SECTION */
+    #NewCars #advertisee {
+        background-color: #212f62;
+        height:min-content;
+                    
+    }
+                
+    #NewCars #advertisee h1{
+        font-size: 1.6em;
+    }
+
+    #NewCars #advertisee ul li{
+        font-size: 0.9em;
+    }
+                 /* ADVERTISEMENT SECTION ENDS */
+
+                 /* FEATURES NEW CARS SECTION */
+
+    #featuredNewCars > h1:first-child:after {
+        width: 32%;
+    } 
+                 
+    #NewCars #featuredNewCars .owl-carousel .owl-nav {
+        transform: translateY(-232px);
+    }        
+
+                /* FEATURES NEW CARS SECTION ENDS */
+
+                /* NEW CARS SECTION ENDS */
+            
+            /* FEATURED USED CARS  SECTION */
+
+    #UsedCars #featuredUsedCars > h1:first-child:after {
+        width: 32%;
+    }
+
+    #UsedCars #featuredUsedCars .card-body span {
+        font-size: 1em;
+    }
+
+    #UsedCars #featuredUsedCars .owl-carousel .owl-nav {
+        transform: translateY(-210px);
+    }
+              /* FEATURED USED CARS ENDS */
+
+            
+            /* TOP CITIES SECTION */
+
+    #Cities h1:first-of-type:after {
+        width: 27%;
+        left: calc(50% - 43px);
+               
+    }
+            /* TOP CITIES SECTION ENDS */
+
+
+    
+         /* CAR COMPARISION SECTION */
+
+    #CarCompare h1:first-of-type:after {
+        width: 35%;
+                
+    }
+    
+    #CarCompare .fa-exchange{
+        left: 44.5%;
+        top: 49px;
+    
+    }
+        
+                /* CAR COMPARISION SECTION ENDS */
+    
+                /* FOOTER */
+                /* FOOTER TOP */
+
+    footer .footer-top section h5 {
+        font-size: 22px;
+    }
+
+    footer .footer-top section h5::after {
+        width: 39%;
+        left: 100px;
+    }
+
+    footer .footer-top #Follow h5:last-of-type::after {
+        width: 39%;
+        left: 100px;
+    }
+
+    
+    footer .footer-top #Contact form input:first-child {
+        font-size: 16px;
+    }
+
+    footer .footer-top #Contact form .btn-primary {
+        font-size: 16px;
+    }
+
+    footer .footer-top section ul li a {
+        font-size: 16px;
+
+    }
+
+    
+    footer .footer-top section .badges img {
+        height: 50px;
+        width: 150px;
+
+    }
+    
+                /* FOOTER TOP ENDS*/
+    footer #bottom p {
+        font-size: 13px;
+    }
+                /* FOOTER */
+
+
+    }
