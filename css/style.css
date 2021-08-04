@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 
 html {
@@ -94,6 +95,21 @@ body {
 
     }
 
+    
+    #Items li.active {
+        position: relative;
+    }
+
+    #Items li.active::after {
+        content: "";
+        position: absolute;
+        border-bottom: 4px solid #003aff;
+        bottom: 0;
+        width: 82%;
+        left: 8px;
+      
+    }
+
 
 
 
@@ -136,8 +152,11 @@ body {
 
     #Carnav > div:first-of-type >  div:first-of-type  >  div:first-of-type{
         background-color:rgba(0, 0, 0, 0.4);
-    
+        box-shadow: 0 0 7px 1px rgb(0 0 0 / 10%);
     }
+    
+    
+    
     
     #Carnav #dropdowns button, #Carnav #dropdowns #searchBtn {
         font-size: 14px;
@@ -412,11 +431,11 @@ body {
 
     /* FEATURES NEW CARS SECTION */
    
-    #featuredNewCars > h1:first-child {
+    #NewCars #featuredNewCars > div > h1:first-child {
         font-family: 'PT Sans', sans-serif;
     }
     
-    #featuredNewCars > h1:first-child:after {
+    #NewCars #featuredNewCars > div > h1:first-child:after {
         content: "";
         position: absolute;
         border-bottom: 1px solid #e72a1a;
@@ -943,12 +962,13 @@ body {
         }
             
         .fa-arrow-circle-up {
+            z-index: 10;
             position:fixed ;
             bottom: 15px;
             right: 15px;
             font-size: 1.6em;  
             transition: 1s;
-            color: rgb(255, 0, 0);
+            color: #17a2b8;
             padding: 3px 5px 3px 5px;
             animation: ScrbtnUp 0.5s ease-in-out 0s 1;
                 
@@ -967,7 +987,7 @@ body {
         }
             
         .fa-arrow-circle-up:hover {
-            background-color: #555;
+            background-color: rgba(255, 0, 0, 0.5);
             transform:translateY(-20px);
         }
 
@@ -1175,6 +1195,11 @@ body {
     #Items li:last-child a {
         display: inline-block;
         
+    }
+
+    #Items li.active::after {
+        width: 75px;
+        left: -1px;
     }
 
 /* CAR NAVBAR SECTION */
@@ -1417,6 +1442,12 @@ body {
         
     }
 
+    #Items li.active::after {
+        width: 75px;
+        left: -1px;
+    }
+
+
 /* CAR NAVBAR SECTION */
     #Carnav > div:first-of-type >  div:first-of-type {
     padding-bottom: 7rem;
@@ -1605,6 +1636,12 @@ body {
     
     }
 
+    #Items li.active::after {
+        width: 75px;
+        left: -1px;
+    }
+
+
 /* CAR NAV */
     #Carnav {
     position: relative;
@@ -1768,3 +1805,1019 @@ body {
 
 
     }
+
+
+
+    /******************** FIRST HOME PAGE ENDS  ***************/
+
+
+
+    /******************** USED CARS PAGE STARTS ***************/
+
+        /* CARNAV SECTION  */
+        
+
+        #usedcars #Carnav {
+         height: 250px;
+        }
+
+        #usedcars #Carnav > div:first-of-type >  div:first-of-type  >  div:first-of-type{
+         transform: translateY(25px);
+         background-color: white;
+         box-shadow: 0 0 7px 1px rgb(0 0 0 / 10%);
+         z-index: 1;
+         
+    
+        }
+        
+        #usedcars #Carnav #searchBtn a{
+         padding: 17px 75px 18px 75px;
+            
+        }
+        
+        /* CARNAV SECTION ENDS */
+
+
+        
+        /* 3 STEPS SECTION */
+
+        #usedcars #threeSteps {
+          background-color: #f1f5fd;  
+        }
+
+        #usedcars  div .advbtn a{
+            text-decoration: none;
+            color: white;
+            background: #1b9346;
+            padding:15px 35px;
+            border-radius: 2px;
+            transition: 500ms;
+            font-size: 18px;
+            box-shadow: 0 14px 28px rgba(14, 47, 235, 0.15), 0 10px 10px rgba(14, 47, 235,0.15);
+        }
+
+        #usedcars  div .advbtn a:hover{
+            color: blue;
+            font-size: 20px;
+        }
+
+        #usedcars #threeSteps .fa-bullhorn {
+            font-size: 3rem;
+        }
+        #usedcars #threeSteps .fa-handshake {
+            font-size: 3rem;
+        }
+
+        #usedcars #threeSteps .fa-car-side {
+            font-size: 3rem;
+        }
+        
+        #usedcars #threeSteps p {
+            font-size: 14px;
+        }
+
+
+
+
+        /* 3 STEPS SECTION  ENDS*/
+
+
+        /* CATEGORY CARS SECTION */
+
+        #usedcars #carCategory h1 {
+            font-family: "PT Sans", sans-serif
+        }
+
+        #usedcars #carCategory h1::after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 102px;
+            bottom: 25px;
+            left: calc(50% - 55px);
+        }
+
+        #usedcars #carCategory {
+            background-color: #f1f5fd;
+        }
+        
+        #usedcars #carCategory a{
+            text-decoration: none;
+            transition: 500ms;
+        }
+
+        #usedcars #carCategory a:hover{
+            box-shadow: 0 14px 28px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 10%);
+        }
+        
+        
+        
+        #usedcars #carCategory .carbox {
+            background-color: white;
+            border-radius: 5px;
+            padding: 15px 30px 10px 30px;
+            box-shadow: 2px 2px 7px 0 rgb(1 1 1 / 15%);
+        }
+
+        #usedcars #carCategory .carbox img{
+            transition: 500ms;
+        }
+
+        #usedcars #carCategory .carbox img:hover{
+            transform:scale(1.2);
+        }
+
+        #usedcars #carCategory .carbox h6{
+            color: black;
+            transition: 500ms;
+
+        }
+
+        #usedcars #carCategory .carbox h6:hover{
+            box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+        }
+
+        #usedcars #carCategory a:hover .carbox h6{
+            color: rgb(41, 98, 221);
+            
+        }
+
+        /* CATEGORY CARS SECTION ENDS */
+
+
+
+        /* CAR BRANDS  SECTION*/
+
+        #usedcars #brands h1 {
+            font-family: "PT Sans", sans-serif
+        }
+
+        #usedcars #brands h1::after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 102px;
+            bottom: 25px;
+            left: calc(50% - 55px);
+        }
+
+        #usedcars #brands figure a {
+            text-decoration: none;
+            
+        }
+       
+
+        #usedcars #brands figure a img {
+            transition: 500ms;
+        }
+
+        #usedcars #brands figure a img:hover {
+            transform: scale(1.5);
+        }
+
+        #usedcars #brands figure a figcaption {
+            color: black;
+            transition: 200ms;
+        }
+
+        #usedcars #brands figure a:hover figcaption {
+            color: red;
+            
+        }
+
+        /* CAR BRANDS SECTION ENDS */
+            
+        /* BUDGET SECTION */
+
+        #usedcars #budget {
+            background-color: #212f62;
+           
+        }
+
+        #usedcars #budget h1 {
+            font-family: "PT Sans", sans-serif
+        }
+        
+        #usedcars #budget h1::after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 102px;
+            bottom: 25px;
+            left: calc(50% - 55px);
+        }
+
+        #usedcars #budget a {
+            text-decoration: none;
+            transition: 500ms;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            /* color: black; */
+            
+        }
+        
+        #usedcars #budget a:hover {
+            color: #1b9346;
+            font-size: 1em;
+            
+        }
+
+
+        /* BUDGET SECTION ENDS */
+
+        /* YEARS SECTION */
+
+        #usedcars #years h1 {
+            font-family: "PT Sans", sans-serif
+        }
+        
+        #usedcars #years h1::after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 102px;
+            bottom: 25px;
+            left: calc(50% - 55px);
+        }
+
+        #usedcars #years a {
+            text-decoration: none;
+            transition: 500ms;
+            color: rgb(129, 129, 129);
+            font-family: 'Lato', sans-serif;
+            
+            
+        }
+        
+        #usedcars #years a:hover {
+            color: black;
+            font-weight: bolder;
+        }
+
+
+        /* YEARS SECTION ENDS */
+
+
+
+
+
+              /* MEDIA QUERIES */
+              
+        
+              /* LARGE SCREEN - LG  */
+
+@media (min-width:992px) and (max-width: 1200px){
+
+        /* 3 STEPS SECTION */
+
+        #usedcars  div .advbtn a{
+            font-size: 16px;
+            
+        }
+
+        #usedcars  div .advbtn a:hover{
+            font-size: 18px;
+            
+        }
+
+}
+
+
+
+
+    
+            /* MEDIUM SCREEN - MD  */
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width: 991px){
+    /* 3 STEPS SECTION */
+    #usedcars #Carnav #searchBtn a{
+        padding-left:  50px;
+        padding-right:  50px;
+    }
+    
+    #usedcars  div .advbtn a{
+        padding:20px 15px;
+        font-size: 14px;
+    }
+        
+
+
+    #usedcars  div .advbtn a:hover{
+        color: blue;
+        font-size: 15px;
+    }
+
+    #usedcars #threeSteps .fa-bullhorn {
+        font-size: 2.5rem;
+    }
+
+    #usedcars #threeSteps p {
+        font-size: 13px;
+    }
+
+
+    /* 3 STEPS SECTION ENDS */
+
+    /* CAR BRANDS  SECTION*/
+
+        
+
+
+
+    /* CAR BRANDS SECTION ENDS */
+
+    
+    /* BUDGET SECTION */
+     
+    #usedcars #budget p {
+        font-size: 14px;
+
+    }
+
+    /* BUDGET SECTION ENDS*/
+
+
+    }
+
+
+
+             /* SMALL SCREEN - SM  */
+
+
+
+@media (min-width:576px) and (max-width: 767px){
+
+    /* 3 STEPS SECTION */
+
+    #usedcars #Carnav #searchBtn a{
+    padding-left:  30px;
+    padding-right:  30px;
+    }
+  
+   
+    #usedcars  div .advbtn a{
+        padding:15px 30px;
+        font-size: 16px;
+    }
+        
+    #usedcars  div .advbtn a:hover{
+        color: blue;
+        font-size: 18px;
+    }
+
+    /* 3 STEPS SECTION ENDS */
+
+    /* CATEGORY CARS SECTION */
+
+
+    #usedcars #carCategory .carbox {
+        padding: 15px 10px 10px 10px;   
+    }
+    
+    #usedcars #carCategory .carbox img{
+        /* height: 50px; */
+        width: 120px;
+
+    }
+
+
+    /* CATEGORY CARS SECTION ENDS */
+    
+    /* CAR BRANDS  SECTION*/
+
+    #usedcars #brands figure a figcaption {
+        font-size: 14px;
+    }
+
+
+
+    /* CAR BRANDS SECTION ENDS */
+
+    /* BUDGET SECTION */
+     
+    #usedcars #budget p {
+        font-size: 14px;
+
+    }
+
+    /* BUDGET SECTION ENDS*/
+
+
+}
+
+
+
+
+
+
+          /* EXTRA SMALL (MOBILE SCREEN) - COL  */
+
+@media (max-width:575px){
+    
+    /* 3 STEP SECTION */
+  
+    #usedcars #threeSteps p {
+        font-size: 16px;
+    }
+
+
+
+
+    #usedcars #threeSteps > div > div:first-of-type {
+            margin-top: 270px ;
+    }
+
+    /* 3 STEP SECTION ENDS*/
+
+
+
+     /* CATEGORY CARS SECTION */
+
+
+     #usedcars #carCategory .carbox {
+        padding: 20px 10px 5px 10px;   
+    }
+    
+    #usedcars #carCategory .carbox img{
+        height: 75px;
+        width: 190px;
+
+    }
+    
+    #usedcars #carCategory .carbox img:hover{
+        transform:scale(1.5);
+    }
+
+    #usedcars #carCategory .carbox h6{
+        font-size: 16px;
+
+    }
+
+
+
+
+    /* CATEGORY CARS SECTION ENDS */
+
+
+    
+}
+
+
+
+/*************  USED CARS PAGE ENDS  ****************/
+
+
+
+
+
+/*************  NEW CARS PAGE STARTS  ****************/
+
+        /* CARNAV SECTION  */
+        
+
+        #newcars #Carnav {
+            height: 250px;
+        }
+   
+        #newcars #Carnav > div:first-of-type >  div:first-of-type  >  div:first-of-type{
+            transform: translateY(25px);
+            background-color: white;
+            box-shadow: 0 0 7px 1px rgb(0 0 0 / 10%);
+            z-index: 1;
+            
+       
+        }
+           
+        #newcars #Carnav #searchBtn a{
+            padding: 17px 75px 18px 75px;
+               
+        }
+           
+        /* CARNAV SECTION ENDS */
+
+
+        /* HELPER / RECOMMENDATION  SECTION */
+
+        #newcars #helper {
+            background-color: #f1f5fd;  
+        }
+        
+        #newcars #helper p {
+            font-size: 14px;
+        }
+        
+        #newcars #helper .fa-angle-double-right {
+            vertical-align: middle;
+            font-size: 30px;
+            top: 8px;
+            left: -12px;
+            /* transform: translateX(-80px); */
+            
+            animation: toNfro 2s ease-in-out infinite;
+        }
+        
+        
+
+        @keyframes toNfro {
+            to {
+                transform: translateX(100px);
+            }
+
+            
+        }
+
+        #newcars #helper .fa-angle-double-down {
+            vertical-align: middle;
+            font-size: 30px;
+            top: -100px;
+            left: 48%;
+
+            
+            animation: upNdn 2s ease-in-out infinite;
+        }
+
+        @keyframes upNdn {
+            to {
+                transform: translateY(100px);
+            }
+
+            
+        }
+        #newcars #helper a.bestcarbtn {
+            text-decoration: none;
+            padding: 15px 35px;
+            line-height: 48px;
+            font-size: 16px;
+            border-radius: 2px;
+            color: white;
+            background-color: #1b9346;
+            transition: 500ms;
+            box-shadow: 0 14px 28px rgba(14, 47, 235, 0.15), 0 10px 10px rgba(14, 47, 235,0.15);
+        }
+            
+        #newcars #helper a.bestcarbtn:hover {
+            font-size: 18px;
+            color: blue;
+        }
+
+
+        /* HELPER / RECOMMENDATION  SECTION  ENDS*/
+
+
+        /* NEW CARS SECTIONS */
+        #newcars #NewCars {
+            background-color: #ffffff;
+        }
+
+        #NewCars #featuredNewCars >  h1:first-child {
+            font-family: 'PT Sans', sans-serif;
+        }
+        
+        #NewCars #featuredNewCars >  h1:first-child:after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 102px;
+            bottom: -15px;
+            left: calc(50% - 55px);
+        }
+
+        /* NEW CARS SECTIONS ENDS */
+
+
+        /* NEW UPCOMING CARS SECTIONS  */
+        #newcars #NewCars.upcoming {
+            background-color: #f1f5fd;
+        }
+        
+        #newcars #NewCars.upcoming .card-body div:last-child p {
+            font-size: 14px;
+            color: #7b8397;
+            font-weight: bolder;
+            font-family: 'Lato', sans-serif;
+        }
+
+        /* NEW UPCOMING CARS SECTIONS ENDS */
+
+
+        /* NEW LAUNCHED / LATEST CARS SECTIONS  */
+
+   
+        #newcars #NewCars.latest .card-body div:last-child p {
+            font-size: 14px;
+            color: #7b8397;
+            font-weight: bolder;
+            font-family: 'Lato', sans-serif;
+        }
+
+        /* NEW LAUNCHED CARS SECTIONS ENDS */
+        
+
+
+
+        /* CATEGORY CARS SECTION */
+        #newcars #carCategory {
+            /* background-color: #212f62; */
+        }
+
+        #newcars #carCategory h1 {
+            font-family: "PT Sans", sans-serif
+        }
+
+        #newcars #carCategory h1::after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 102px;
+            bottom: 25px;
+            left: calc(50% - 55px);
+        }
+        
+        #newcars #carCategory a{
+            text-decoration: none;
+            transition: 500ms;
+        }
+
+        #newcars #carCategory a:hover{
+            box-shadow: 0 14px 28px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 10%);
+        }
+        
+        
+        
+        #newcars #carCategory .carbox {
+            background-color: #f1f5fd;
+            border-radius: 5px;
+            padding: 15px 30px 10px 30px;
+            box-shadow: 2px 2px 7px 0 rgb(1 1 1 / 15%);
+        }
+
+        #newcars #carCategory .carbox img{
+            mix-blend-mode: darken;
+            transition: 500ms;
+        }
+
+        #newcars #carCategory .carbox img:hover{
+            transform:scale(1.2);
+        }
+
+        #newcars #carCategory .carbox h6{
+            color: black;
+            transition: 500ms;
+
+        }
+
+        #newcars #carCategory .carbox h6:hover{
+            box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+        }
+
+        #newcars #carCategory a:hover .carbox h6{
+            color: rgb(41, 98, 221);
+            
+        }
+
+        /* CATEGORY CARS SECTION ENDS */
+
+        /* BRANDS SECTION  */
+
+        #newcars #brands  {
+            background-color: #f1f5fd;
+
+        }
+
+        #newcars #brands h1 {
+            font-family: "PT Sans", sans-serif
+        }
+
+        #newcars #brands h1::after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 102px;
+            bottom: 25px;
+            left: calc(50% - 55px);
+        }
+
+        #newcars #brands figure a {
+            text-decoration: none;
+            
+        }
+       
+
+        #newcars #brands figure a img {
+            mix-blend-mode: darken;
+            transition: 500ms;
+        }
+
+        #newcars #brands figure a img:hover {
+            transform: scale(1.5);
+        }
+
+        #newcars #brands figure a figcaption {
+            color: black;
+            transition: 200ms;
+        }
+
+        #newcars #brands figure a:hover figcaption {
+            color: red;
+            
+        }
+
+
+        /* BRANDS SECTION ENDS */
+
+
+        /* BUDGET SECTION */
+
+        #newcars #budget {
+            background-color: #212f62;
+        
+        }
+
+        #newcars #budget h1 {
+            font-family: "PT Sans", sans-serif
+        }
+
+        #newcars #budget h1::after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 102px;
+            bottom: 25px;
+            left: calc(50% - 55px);
+        }
+
+        #newcars #budget a {
+            text-decoration: none;
+            transition: 500ms;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            /* color: black; */
+            
+        }
+
+        #newcars #budget a:hover {
+            color: #1b9346;
+            font-size: 1em;
+            
+        }
+
+
+        /* BUDGET SECTION ENDS */
+
+        /* YEARS SECTION */
+
+        #newcars #years h1 {
+            font-family: "PT Sans", sans-serif
+        }
+
+        #newcars #years h1::after {
+            content: "";
+            position: absolute;
+            border-bottom: 1px solid #e72a1a;
+            width: 102px;
+            bottom: 25px;
+            left: calc(50% - 55px);
+        }
+
+        #newcars #years a {
+            text-decoration: none;
+            transition: 500ms;
+            color: rgb(129, 129, 129);
+            font-family: 'Lato', sans-serif;
+            
+            
+        }
+
+        #newcars #years a:hover {
+            color: black;
+            font-weight: bolder;
+        }
+
+
+        /* YEARS SECTION ENDS */
+
+
+
+
+
+
+
+
+
+
+
+              /* MEDIA QUERIES */
+              
+        
+
+              /* LARGE SCREEN - LG  */
+
+@media (min-width:992px) and (max-width: 1200px){
+
+    
+    /* HELPER / RECOMMENDATION  SECTION  */
+    #newcars #helper a.bestcarbtn {
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+
+    #newcars #helper a.bestcarbtn:hover {
+        font-size: 16px;
+      
+    }
+    
+    /* HELPER / RECOMMENDATION  SECTION  ENDS*/
+
+
+
+}
+            
+            
+            
+            
+                
+                /* MEDIUM SCREEN - MD  */
+@media (min-width:768px) and (max-width: 991px){
+
+
+    /* HELPER / RECOMMENDATION  SECTION  */
+    #newcars #Carnav #searchBtn a {
+        padding-left: 50px;
+        padding-right: 50px
+    }
+
+    #newcars #helper .svgdiv img {
+        width: 200px;
+    }
+
+    #newcars #helpe .logodiv img {
+        width: 100px;
+    }
+
+    #newcars #helper h4 {
+        font-size: 16px;
+
+    }
+
+    #newcars #helper p {
+        font-size: 14px;
+    }
+
+    #newcars #helper .fa-angle-double-right {
+        font-size: 20px;
+        top: 14px;
+        left: -90px;
+    }
+
+    #newcars #helper a.bestcarbtn {
+        font-size: 14px;
+        padding: 15px 20px;
+        
+    }
+
+    #newcars #helper a.bestcarbtn:hover {
+        font-size: 16px;
+    }
+
+
+
+    /* HELPER / RECOMMENDATION  SECTION  ENDS*/
+
+    /* BUDGET SECTION */
+     
+    #usedcars #budget p {
+        font-size: 14px;
+
+    }
+
+    /* BUDGET SECTION ENDS*/
+
+}
+
+
+
+                /* SMALL SCREEN - SM  */
+           
+           
+           
+@media (min-width:576px) and (max-width: 767px){
+
+        /* HELPER / RECOMMENDATION  SECTION  */
+     #newcars #Carnav #searchBtn a {
+        padding-left: 30px;
+        padding-right: 30px
+     }
+     
+     #newcars #helper .svgdiv img {
+        width: 200px;
+    }
+
+
+    #newcars #helper h4 {
+        font-size: 18px;
+
+    }
+
+    #newcars #helper p {
+        font-size: 14px;
+    }
+
+        /* HELPER / RECOMMENDATION  SECTION  ENDS*/
+        /* CATEGORY CARS SECTION */
+
+
+    #newcars #carCategory .carbox {
+        padding: 15px 10px 10px 10px;   
+    }
+    
+    #newcars #carCategory .carbox img{
+        /* height: 50px; */
+        width: 120px;
+
+    }
+
+
+        /* CATEGORY CARS SECTION ENDS */
+
+        /* BRANDS  SECTION*/
+
+    #newcars #brands figure a figcaption {
+        font-size: 14px;
+    }
+
+
+
+        /* BRANDS SECTION ENDS */
+
+        /* BUDGET SECTION */
+     
+    #usedcars #budget p {
+        font-size: 14px;
+
+    }
+
+        /* BUDGET SECTION ENDS*/
+}
+
+
+
+
+
+
+             /* EXTRA SMALL (MOBILE SCREEN) - COL  */
+
+@media (max-width:575px){
+
+    /* HELPER / RECOMMENDATION  SECTION  */
+
+    #newcars #helper > div > div:first-of-type {
+        margin-top: 270px;
+
+    }
+
+
+    /* HELPER / RECOMMENDATION  SECTION  ENDS*/
+
+    /* NEW CARS SECTION */
+        #newcars #NewCars #Carslider {
+            height: auto;
+        }
+
+    /* NEW CARS SECTION ENDS */
+
+     /* CATEGORY CARS SECTION */
+
+
+    #newcars #carCategory .carbox {
+        padding: 20px 10px 5px 10px;   
+    }
+    
+    #newcars #carCategory .carbox img{
+        height: 75px;
+        width: 190px;
+
+    }
+    
+    #newcars #carCategory .carbox img:hover{
+        transform:scale(1.5);
+    }
+
+    #newcars #carCategory .carbox h6{
+        font-size: 16px;
+
+    }
+
+
+    /* CATEGORY CARS SECTION ENDS */
+
+}
+
+
+
+/*************  NEW CARS PAGE ENDS  ****************/
