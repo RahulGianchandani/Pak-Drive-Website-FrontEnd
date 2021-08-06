@@ -28,15 +28,17 @@ body {
     }
     
     #firstnav .firstNavIcons .fa-facebook:hover {
-        color: #0210d3;
+        color: #006eff;
     }
 
     #firstnav .firstNavIcons .fa-twitter:hover {
         color: #00acee;
     }
+    
     #firstnav .firstNavIcons .fa-linkedin-in:hover {
     color: #0072b1;
     }
+
     #firstnav .firstNavIcons .fa-google-plus-g:hover {
     color: red;
     }
@@ -2422,9 +2424,7 @@ body {
 
 
         /* CATEGORY CARS SECTION */
-        #newcars #carCategory {
-            /* background-color: #212f62; */
-        }
+        
 
         #newcars #carCategory h1 {
             font-family: "PT Sans", sans-serif
@@ -2821,3 +2821,536 @@ body {
 
 
 /*************  NEW CARS PAGE ENDS  ****************/
+
+
+/************* CONTACT US PAGE STARTS *************/
+
+            /* BACKGROUND DIV*/
+
+  
+    #contactUs .bg-contact::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        filter: blur(0px) brightness(0.3);
+        /* background: url(/images/contactUs-carBg/austin-lowman-Jag8Crtp28s-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(/images/contactUs-carBg/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg) no-repeat center center/cover; */
+
+        background: url(/images/contactUs-carBg/jorgen-hendriksen-5KiWbxxjucc-unsplash.jpg) no-repeat 100% 100%/cover;
+        /* background: url(/images/contactUs-carBg/martin-katler-y3neNkE6efI-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(/images/contactUs-carBg/pexels-kelson-downes-1149137.jpg) no-repeat center center/cover; */
+        /* background: url(/images/contactUs-carBg/pexels-torsten-dettlaff-70912.jpg) no-repeat center center/cover; */
+
+        /* background: url(/images/contactUs-carBg/tyler-clemmensen-4gSavS9pe1s-unsplash.jpg) no-repeat center center/cover; */
+        height:100%;
+        width: 100%;
+    }
+
+     .bg-contact  {
+        font-family: "ProximaNova-Regular", Helvetica, sans-serif;
+        /* overflow-x: hidden; */
+    }
+
+
+     .bg-contact #get-startedbtn a {
+        padding: 15px 45px;
+        background: #1b9346;
+        color: white;
+        text-decoration: none;
+        transition: 500ms;
+        
+    }
+    
+     .bg-contact #get-startedbtn a:hover {
+        background: #1b6b3a;
+    }
+
+            /* BACKGROUND DIV ENDS*/
+
+
+            /* FORM DIV */
+     #formSection {
+        font-family: "ProximaNova-Regular", Helvetica, sans-serif;
+        overflow-x: hidden;
+        
+    }
+     #formSection {
+        background: #f1f5fd;
+    }
+
+     .form-control {
+        line-height: 1.7;
+        border-radius: 0;
+        color: black;
+        font-size: 14px;
+        font-family: "ProximaNova-Regular", Helvetica, sans-serif;
+    }
+    
+   
+   
+     label{
+        cursor: pointer;
+    }
+
+     label:not(.termsDiv label)::after {
+        content: "*";
+        color: rgb(255, 0, 0);
+        margin-left: 2px;
+        font-weight: bolder;
+    }
+     .submitBtn .btn {
+        border-radius: 0;
+        background-color: black;
+        color: white;
+        padding: 10px 40px;
+        transition: 500ms;
+        border: 1px solid black;
+    }
+    
+     .submitBtn .btn:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+
+            /* FORM DIV ENDS */
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width:992px) and (max-width: 1200px){
+
+
+
+}
+
+
+@media (min-width:768px) and (max-width: 991px){
+
+
+
+}
+
+
+@media (min-width:576px) and (max-width: 767px){
+     .bg-contact {
+        height: 600px;
+    }
+
+
+}
+
+
+@media (max-width:575px){
+     .bg-contact {
+        height: 400px;
+    }
+
+     .bg-contact  h1 {
+        font-size: 2rem;
+    }
+
+     .bg-contact  p {
+        font-size: 12px;
+    
+    }
+
+}
+
+
+/************* CONTACT US PAGE ENDS *************/
+
+
+
+
+/************* LOGIN PAGE *************/
+    #login .contactform {
+        height: 1000px;
+    }
+    
+    #login .contactform::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        filter: blur(0px) brightness(0.3);
+        /* background: url(/images/contactUs-carBg/austin-lowman-Jag8Crtp28s-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(/images/contactUs-carBg/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg) no-repeat center center/cover; */
+
+        /* background: url(/images/contactUs-carBg/jorgen-hendriksen-5KiWbxxjucc-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(/images/contactUs-carBg/martin-katler-y3neNkE6efI-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(/images/contactUs-carBg/pexels-kelson-downes-1149137.jpg) no-repeat center center/cover; */
+        background: url(/images/contactUs-carBg/pexels-torsten-dettlaff-70912.jpg) no-repeat center center/cover;
+
+        /* background: url(/images/contactUs-carBg/tyler-clemmensen-4gSavS9pe1s-unsplash.jpg) no-repeat center center/cover; */
+        height:100%;
+        width: 100%;
+    } 
+
+    #login #formSection .ftpw {
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        
+        
+    }
+    
+    #login #formSection .ftpw:hover {
+        color: black;
+    }
+
+    #login #formSection .regTip {
+        font-size: 12px;
+    }
+
+    #login #formSection .regTip a{
+        text-decoration:  none;
+    }
+    
+    #login #formSection .regTip a:hover{
+        color: black;
+    }
+
+    #login .divider::before, #login .divider::after {
+      content: '';
+      flex: 1;
+      border-bottom: 1px solid rgb(162 162 162);
+    }
+
+    #login .divider::before{
+        margin-right: 13px;
+    }
+
+    #login .divider::after {
+        margin-left: 13px;
+    }
+   
+    #login .altsign {
+        background: #f1f5fd;
+        border-radius: 6px;
+        
+    }
+
+    #login .altsign p {
+        font-size: 14px;
+
+    }
+
+    #login .altsign .fa-facebook-f{
+        background-color: #3b5998;
+        padding: 10px 13px;
+        border-radius: 100%;
+        transition: 500ms;
+        color: white;
+    }
+    
+    #login .altsign .fa-facebook-f:hover{
+        background-color: rgb(0, 0, 0);
+        color: #0051ff;
+    }
+
+    #login .altsign .fa-google-plus-g{
+        background-color: #dc4e41;
+        padding: 10px 7px;
+        border-radius: 100%;
+        transition: 500ms;
+        color: white;
+    }
+    
+    #login .altsign .fa-google-plus-g:hover{
+        background-color: rgb(0, 0, 0);
+        color: #fc1500;
+    }
+
+    #login .altsign .fa-mobile-alt{
+        background-color: #3eb549;
+        padding: 10px 13px;
+        border-radius: 100%;
+        transition: 500ms;
+        color: white;
+    }
+    
+    #login .altsign .fa-mobile-alt:hover{
+        background-color: rgb(0, 0, 0);
+        color: #00ff1a;
+    }
+
+
+
+    /* MEDIA QUERIES */
+
+
+
+@media (min-width:992px) and (max-width: 1200px){
+}
+
+
+
+
+@media (min-width:768px) and (max-width: 991px){
+}
+
+
+
+
+@media (min-width:576px) and (max-width: 767px){
+}
+
+
+
+
+@media (max-width:575px){
+
+    #login .contactform {
+        height: 900px;
+    }
+    
+
+    #login #formSection h3 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    #login .altsign p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
+/************* LOGIN PAGE ENDS *************/
+
+
+
+
+
+/**************** REGISTER PAGE *****************/
+
+
+    #register .contactform {
+        height: 1200px;
+    }
+    
+    #register #formSection {
+        max-width: 520px;
+    }
+    
+    #register .contactform::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        filter: blur(0px) brightness(0.3);
+        /* background: url(/images/contactUs-carBg/austin-lowman-Jag8Crtp28s-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(/images/contactUs-carBg/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg) no-repeat center center/cover; */
+
+        /* background: url(/images/contactUs-carBg/jorgen-hendriksen-5KiWbxxjucc-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(/images/contactUs-carBg/martin-katler-y3neNkE6efI-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(/images/contactUs-carBg/pexels-kelson-downes-1149137.jpg) no-repeat center center/cover; */
+        background: url(/images/contactUs-carBg/pexels-torsten-dettlaff-70912.jpg) no-repeat center center/cover;
+
+        /* background: url(/images/contactUs-carBg/tyler-clemmensen-4gSavS9pe1s-unsplash.jpg) no-repeat center center/cover; */
+        height:100%;
+        width: 100%;
+    } 
+
+    #register .termsDiv {
+        cursor: pointer;
+        font-size: 13px;
+        
+    }
+    
+    #register .termsDiv a {
+        text-decoration: none;
+        
+    }
+    
+    #register .termsDiv .form-check-input {
+        height: 16px;
+        width: 18px;
+        margin-top: 2px;
+        cursor: pointer;
+    }
+
+    #register .altsign {
+        background: #f1f5fd;
+        border-radius: 6px;
+        
+    }
+
+    #register .altsign p {
+        font-size: 14px;
+
+    }
+
+    #register #formSection p.recaptcha-terms {
+        font-size: 11px;
+        color: gray;
+    }
+    
+    #register .divider::before, #register .divider::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid rgb(162 162 162);
+      }
+  
+      #register .divider::before{
+          margin-right: 13px;
+      }
+  
+      #register .divider::after {
+          margin-left: 13px;
+      }
+
+    #register .altsign .fa-facebook-f{
+        background-color: #3b5998;
+        padding: 10px 13px;
+        border-radius: 100%;
+        transition: 500ms;
+        color: white;
+    }
+    
+    #register .altsign .fa-facebook-f:hover{
+        background-color: rgb(0, 0, 0);
+        color: #0051ff;
+    }
+
+    #register .altsign .fa-google-plus-g{
+        background-color: #dc4e41;
+        padding: 10px 7px;
+        border-radius: 100%;
+        transition: 500ms;
+        color: white;
+    }
+    
+    #register .altsign .fa-google-plus-g:hover{
+        background-color: rgb(0, 0, 0);
+        color: #fc1500;
+    }
+
+    #register .altsign .fa-mobile-alt{
+        background-color: #3eb549;
+        padding: 10px 13px;
+        border-radius: 100%;
+        transition: 500ms;
+        color: white;
+    }
+    
+    #register .altsign .fa-mobile-alt:hover{
+        background-color: rgb(0, 0, 0);
+        color: #00ff1a;
+    }
+
+
+
+
+        /* MEDIA QUERIES */
+
+
+@media (min-width:992px) and (max-width: 1200px){
+}
+
+
+
+
+@media (min-width:768px) and (max-width: 991px){
+}
+
+
+
+
+@media (min-width:576px) and (max-width: 767px){
+}
+
+
+
+
+@media (max-width:575px){
+
+    #register .contactform {
+        height: 1100px;
+    }
+
+    #register #formSection h3 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+}
+
+
+/******** REGISTER PAGE ENDS **********/
+
+
+/*************** ADVERTISE PAGE STARTS **************/
+
+
+        /* HEADING SECTION */
+    #advertisement #headingSection {
+        background-color: #f1f5fd;
+    }
+    
+    #advertisement #headingSection h3 {
+        color: #003dad;
+        font-family: "Lato",Sans-Serif;
+    }
+
+    #advertisement #headingSection h3+p {
+        font-weight: 500;
+        font-family: "Lato",Sans-Serif;
+    }
+    
+    #advertisement #headingSection p {
+        font-family: "Lato",Sans-Serif;
+    }
+    
+    #advertisement #headingSection .fewsteps p{
+        color: #2f59a7;
+
+    }
+
+    #advertisement .fewsteps .fewstepsIcons {
+        font-size: 25px;
+        padding: 13px 13px;
+        vertical-align: middle;
+        background-color: rgb(0, 0, 0);
+        border-radius: 100%;
+        color: white;
+       
+    }
+
+   
+
+        /* HEADING SECTION ENDS */
+
+
+
+   /* MEDIA QUERIES */
+
+
+@media (min-width:992px) and (max-width: 1200px){
+
+}
+
+
+
+
+@media (min-width:768px) and (max-width: 991px){
+
+}
+
+
+
+
+@media (min-width:576px) and (max-width: 767px){
+
+}
+
+
+
+
+@media (max-width:575px){
+
+}
+
+/*************** ADVERTISE PAGE STARTS ENDS ************/
+
