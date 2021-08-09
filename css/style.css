@@ -2833,15 +2833,14 @@ body {
         position: absolute;
         z-index: -1;
         filter: blur(0px) brightness(0.3);
-        /* background: url(/images/contactUs-carBg/austin-lowman-Jag8Crtp28s-unsplash.jpg) no-repeat center center/cover; */
-        /* background: url(/images/contactUs-carBg/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/austin-lowman-Jag8Crtp28s-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg) no-repeat center center/cover; */
+        background: url(../images/contactUs-carBg/jorgen-hendriksen-5KiWbxxjucc-unsplash.jpg) no-repeat 100% 100%/cover;
+        /* background: url(../images/contactUs-carBg/martin-katler-y3neNkE6efI-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/pexels-kelson-downes-1149137.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/pexels-torsten-dettlaff-70912.jpg) no-repeat center center/cover; */
 
-        background: url(/images/contactUs-carBg/jorgen-hendriksen-5KiWbxxjucc-unsplash.jpg) no-repeat 100% 100%/cover;
-        /* background: url(/images/contactUs-carBg/martin-katler-y3neNkE6efI-unsplash.jpg) no-repeat center center/cover; */
-        /* background: url(/images/contactUs-carBg/pexels-kelson-downes-1149137.jpg) no-repeat center center/cover; */
-        /* background: url(/images/contactUs-carBg/pexels-torsten-dettlaff-70912.jpg) no-repeat center center/cover; */
-
-        /* background: url(/images/contactUs-carBg/tyler-clemmensen-4gSavS9pe1s-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/tyler-clemmensen-4gSavS9pe1s-unsplash.jpg) no-repeat center center/cover; */
         height:100%;
         width: 100%;
     }
@@ -2975,15 +2974,15 @@ body {
         position: absolute;
         z-index: -1;
         filter: blur(0px) brightness(0.3);
-        /* background: url(/images/contactUs-carBg/austin-lowman-Jag8Crtp28s-unsplash.jpg) no-repeat center center/cover; */
-        /* background: url(/images/contactUs-carBg/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/austin-lowman-Jag8Crtp28s-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg) no-repeat center center/cover; */
 
-        /* background: url(/images/contactUs-carBg/jorgen-hendriksen-5KiWbxxjucc-unsplash.jpg) no-repeat center center/cover; */
-        /* background: url(/images/contactUs-carBg/martin-katler-y3neNkE6efI-unsplash.jpg) no-repeat center center/cover; */
-        /* background: url(/images/contactUs-carBg/pexels-kelson-downes-1149137.jpg) no-repeat center center/cover; */
-        background: url(/images/contactUs-carBg/pexels-torsten-dettlaff-70912.jpg) no-repeat center center/cover;
+        /* background: url(../images/contactUs-carBg/jorgen-hendriksen-5KiWbxxjucc-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/martin-katler-y3neNkE6efI-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/pexels-kelson-downes-1149137.jpg) no-repeat center center/cover; */
+        background: url(../images/contactUs-carBg/pexels-torsten-dettlaff-70912.jpg) no-repeat center center/cover;
 
-        /* background: url(/images/contactUs-carBg/tyler-clemmensen-4gSavS9pe1s-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/tyler-clemmensen-4gSavS9pe1s-unsplash.jpg) no-repeat center center/cover; */
         height:100%;
         width: 100%;
     } 
@@ -3140,15 +3139,15 @@ body {
         position: absolute;
         z-index: -1;
         filter: blur(0px) brightness(0.3);
-        /* background: url(/images/contactUs-carBg/austin-lowman-Jag8Crtp28s-unsplash.jpg) no-repeat center center/cover; */
-        /* background: url(/images/contactUs-carBg/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/austin-lowman-Jag8Crtp28s-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/dhiva-krishna-GRV4ypBKgxE-unsplash.jpg) no-repeat center center/cover; */
 
-        /* background: url(/images/contactUs-carBg/jorgen-hendriksen-5KiWbxxjucc-unsplash.jpg) no-repeat center center/cover; */
-        /* background: url(/images/contactUs-carBg/martin-katler-y3neNkE6efI-unsplash.jpg) no-repeat center center/cover; */
-        /* background: url(/images/contactUs-carBg/pexels-kelson-downes-1149137.jpg) no-repeat center center/cover; */
-        background: url(/images/contactUs-carBg/pexels-torsten-dettlaff-70912.jpg) no-repeat center center/cover;
+        /* background: url(../images/contactUs-carBg/jorgen-hendriksen-5KiWbxxjucc-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/martin-katler-y3neNkE6efI-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/pexels-kelson-downes-1149137.jpg) no-repeat center center/cover; */
+        background: url(..../images/contactUs-carBg/pexels-torsten-dettlaff-70912.jpg) no-repeat center center/cover;
 
-        /* background: url(/images/contactUs-carBg/tyler-clemmensen-4gSavS9pe1s-unsplash.jpg) no-repeat center center/cover; */
+        /* background: url(../images/contactUs-carBg/tyler-clemmensen-4gSavS9pe1s-unsplash.jpg) no-repeat center center/cover; */
         height:100%;
         width: 100%;
     } 
