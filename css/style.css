@@ -1864,13 +1864,16 @@ body {
         }
 
         #usedcars #threeSteps .fa-bullhorn {
+            color: #1234af;
             font-size: 3rem;
         }
         #usedcars #threeSteps .fa-handshake {
+            color: #1234af;
             font-size: 3rem;
         }
 
         #usedcars #threeSteps .fa-car-side {
+            color: #1234af;
             font-size: 3rem;
         }
         
@@ -3317,9 +3320,183 @@ body {
        
     }
 
-   
+    /* HEADING SECTION ENDS */
 
-        /* HEADING SECTION ENDS */
+    /* CAR FORM SECTION */
+
+    /* BRANDS */
+
+    #advertisement #carInfosection  #carinfobox  {
+        background: white;
+        border-radius: 7px;
+        box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%);
+        transform: translateY(-50px);
+        z-index: 1;
+        border: 1px solid rgb(195 194 194);
+  
+    }
+    
+    
+    #advertisement #carInfosection #carinfobox  #brandselect h1::after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid #e72a1a;
+        width: 102px;
+        bottom: 23px;
+        left: calc(50% - 55px);
+    } 
+/* 
+    #advertisement #carInfosection #carinfobox  #brandselect .owl-carousel::after {
+        content: "";
+        border-top: 1px solid #d3dcee;
+        position: absolute;
+        width: 95%;
+        left: 2.5%;
+        bottom: -30px;
+        
+    } */
+    
+    #advertisement #carInfosection #carinfobox  #brandselect a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #advertisement #carInfosection #carinfobox  #brandselect a:hover {
+        color: rgb(20, 89, 238);
+    }
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .brandimgbox {
+        background-color: #f1f5fd;
+        border-radius: 5px;
+        /* padding: 15px 30px 10px 30px; */
+        box-shadow: 2px 2px 7px 0 rgb(1 1 1 / 15%);
+        transition: 500ms;
+        
+    }
+    
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .brandimgbox:hover {
+        box-shadow: 0 14px 28px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 10%);
+        
+    }
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .brandimgbox:focus {
+        border: 2px solid blue;
+    }
+
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .imgholder {
+        height: 50px;
+        
+    }
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .imgholder img {
+        mix-blend-mode: darken;
+        transition: 500ms;
+    }
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .imgholder img:hover {
+        transform: scale(1.3);
+    }
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .owl-carousel .owl-nav {
+        transform: translateY(-101px);
+        position: relative;
+    }
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .owl-carousel .owl-nav button.owl-prev, #advertisement #carInfosection #carinfobox  #brandselect .owl-carousel .owl-nav button.owl-next {
+        background: white;
+        width: 35px;
+        border-radius: 100%;
+        position: absolute;
+    }
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .owl-carousel .owl-nav button.owl-next {
+        right: -25px;
+    } 
+    
+    #advertisement #carInfosection #carinfobox  #brandselect .owl-carousel .owl-nav button.owl-prev {
+        left: -25px;
+    }
+
+    #advertisement #carInfosection #carinfobox  #brandselect .owl-carousel .owl-nav button span {
+        font-size: 25px;
+        opacity: 0.7;
+    }
+    
+    #advertisement #carInfosection #carinfobox #brandselect .owl-carousel .owl-nav button.owl-prev:hover, #advertisement #carInfosection #carinfobox  #brandselect .owl-carousel .owl-nav button.owl-next:hover {
+        color: rgb(255, 255, 255);
+        background-color: black;
+    }
+    
+    #advertisement #carInfosection #carinfobox #brandselect #carinfoform {
+        background-color: #f1f5fd;
+      
+    }
+
+    
+
+
+    /* BRANDS ENDS */
+
+
+
+
+    /* PERSONAL INFO */
+
+    #advertisement #carInfosection #carinfobox #brandselect #PersonalInfo {
+        background-color: #f1f5fd;
+    }
+    
+  
+
+
+    /* PERSONAL INFO ENDS */
+
+
+    /* CAR FORM SECTION  ENDS */
+    
+
+
+
+    /*  TRADE WORK SECTION  */
+
+    #advertisement #trade  {
+        background-color: #f1f5fd;
+    }
+
+    #advertisement #trade .nums {
+        border: 1px solid #857f7f;
+        padding: 8px 18px;
+        border-radius: 100%;
+    }
+
+    #advertisement #trade h1::after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid #e72a1a;
+        width: 102px;
+        bottom: 23px;
+        left: calc(50% - 55px);
+    } 
+
+    /*  TRADE WORK SECTION ENDS  */
+
+    /*  SEll REASON SECTION  */
+
+
+    #advertisement #sellReason p {
+        font-size: 18px;
+
+    }
+
+
+    #advertisement #sellReason i.sellIcons {
+        font-size: 40px;
+        color: #1234af;
+    }
+
+    /*  SEll REASON SECTION ENDS  */
 
 
 
@@ -3335,12 +3512,53 @@ body {
 
 @media (min-width:768px) and (max-width: 991px){
 
+    #advertisement #trade h5 {
+        font-size: 16px;
+    }
+
+    #advertisement #trade p {
+        font-size: 14px;
+    }
+    
+    #advertisement #trade img {
+        width: 150px;
+    }
+
+
+    #advertisement #sellReason h2 {
+        font-size: 25px;
+    }
+    #advertisement #sellReason p {
+        font-size: 14px;
+    }
 }
 
 
 
 
 @media (min-width:576px) and (max-width: 767px){
+
+    
+    #advertisement #headingSection p {
+        font-size: 14px;
+    }
+
+    #advertisement .fewsteps .fewstepsIcons {
+        font-size: 18px;
+        padding: 10px 10px;
+
+    }
+
+    
+
+    #advertisement #trade img {
+        width: 250px;
+    }
+
+    #advertisement #sellReason h1 {
+        font-size: 30px;
+    }
+
 
 }
 
@@ -3349,7 +3567,339 @@ body {
 
 @media (max-width:575px){
 
+    
+    #advertisement #headingSection h3 {
+        font-size: 18px;
+    }
+
+    #advertisement #carInfosection #carinfobox #brandselect h1:first-of-type {
+        font-size: 22px;
+    }
+
+    #advertisement #carinfobox  #carinfoform form,  #advertisement #carinfobox  #PersonalInfo form{
+        margin-left: 0px;
+    }
+
+
+    #advertisement #trade h1 {
+        font-size: 22px;
+
+    }
+
+    #advertisement #sellReason h1 {
+        font-size: 22px;
+
+    }
+
+    #advertisement #sellReason h1 + p:first-of-type {
+        margin-top: 10px;
+        font-size: 14px;
+
+    }
 }
 
 /*************** ADVERTISE PAGE STARTS ENDS ************/
 
+
+/*************** VIDEOS PAGE STARTS      ***********/
+
+
+
+        /* CARNAV SECTION  */
+        
+
+    #videos #Carnav {
+        height: 250px;
+    }
+
+    #videos #Carnav form{
+        transform: translateY(45px);
+        background-color: white;
+        box-shadow: 0 0 7px 1px rgb(0 0 0 / 10%);
+        z-index: 1;
+        
+    }
+
+    #videos #Carnav form .form-control {
+        line-height: 2.8;
+        /* border: transparent; */
+    }
+
+    #videos #Carnav form .btn-primary {
+        background-color: #1b9346;
+        border: #1b9346;
+        /* padding: 15px 60px 16px 60px; */
+        padding: 15px;
+        border-radius: 0;
+        font-size: 15px;
+        transition: 500ms;
+    }
+    
+    #videos #Carnav form .btn-primary:hover {
+            background-color: #11612e;
+
+    }
+
+        /* CARNAV SECTION ENDS */
+
+
+        /* MAIN VIDEO SECTION   */
+    #videos #mainVideosec {
+            background-color: #f1f5fd;
+    }
+
+    #videos #mainVideosec > div > h1:first-child:after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid #e72a1a;
+        width: 102px;
+        bottom: -15px;
+        left: calc(50% - 55px);
+    }
+
+    #videos #mainVideosec #titleBox {
+        background: white;
+        border-top: 5px solid #212f62;
+    }
+
+
+
+
+    #videos #mainVideosec #moreVideos  {
+        overflow-x: scroll;
+        background: white;
+        border: 1px solid #e6e6e6;
+    }
+
+    #videos #mainVideosec #moreVideos a {
+        text-decoration: none;
+        color: black;
+        transition: 300ms;
+        border: 1px solid #e6e6e6;
+        
+    }
+
+
+    #videos #mainVideosec #moreVideos a:hover  {
+        background-color: #eaeaea;
+
+    }
+
+    #videos #mainVideosec #moreVideos .thumbnailBox {
+        width: 160px;
+    }
+ 
+
+    #videos #mainVideosec #moreVideos .thumbnailBox #imgBox {
+        height: 120px;
+        
+    }
+    
+    #videos #mainVideosec #moreVideos .thumbnailBox #imgBox i{
+        position: absolute;
+        top: 35%;
+        left: 43%;
+        font-size: 32px;
+        color: white;
+        z-index: 100;
+        transition: 300ms;
+    }
+    
+    #videos #mainVideosec #moreVideos a:hover .thumbnailBox #imgBox i{
+        color: red;
+        transform: scale(1.2);
+    }
+
+    #videos #mainVideosec #moreVideos .thumbnailBox #imgBox img {
+       filter: brightness(0.6);
+       transition: 300ms;
+    }
+    #videos #mainVideosec #moreVideos a:hover .thumbnailBox #imgBox img {
+       filter: brightness(1);
+    }
+
+    #videos #mainVideosec #moreVideos .thumbnailBox .thumbTitle {
+        background-color: white;
+        border-top: 5px solid #212f62;
+        transition: 300ms;
+
+    }
+
+    #videos #mainVideosec #moreVideos a:hover .thumbnailBox .thumbTitle {
+        background-color: #eaeaea;
+
+    }
+
+    #videos #mainVideosec #moreVideos .thumbnailBox .thumbTitle p{
+        font-size: 14px;
+
+    }
+    #videos #mainVideosec #moreVideos a:hover .thumbnailBox .thumbTitle p{
+        color: rgb(15, 89, 199);
+
+    }
+
+
+
+        /* MAIN VIDEO SECTION ENDS  */
+
+
+
+        /* ALL VIDEO SECTIONS */
+      
+
+    #videos .VideoSections {
+        background-color: #f1f5fd;
+    }
+
+    #videos .VideoSections > div > h1:first-child:after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid #e72a1a;
+        width: 102px;
+        bottom: -15px;
+        left: calc(50% - 55px);
+    }
+
+    #videos .VideoSections #titleBox {
+        background: white;
+        
+    }
+
+    
+
+    #videos .VideoSections #moreVideos a {
+        text-decoration: none;
+        color: black;
+        transition: 300ms;
+    
+        
+    }
+
+
+
+    #videos .VideoSections #moreVideos .thumbnailBox #imgBox {
+        height: 250px;
+        
+    }
+
+    #videos .VideoSections #moreVideos .thumbnailBox #imgBox i{
+        position: absolute;
+        top: 43%;
+        left: 47%;
+        font-size: 32px;
+        color: white;
+        z-index: 100;
+        transition: 300ms;
+    }
+
+    #videos .VideoSections #moreVideos a:hover .thumbnailBox #imgBox i{
+        color: red;
+        transform: scale(1.2);
+    }
+
+    #videos .VideoSections #moreVideos .thumbnailBox #imgBox img {
+    filter: brightness(0.7);
+    transition: 300ms;
+    }
+
+    #videos .VideoSections #moreVideos a:hover .thumbnailBox #imgBox img {
+    filter: brightness(0.9);
+    }
+
+    #videos .VideoSections #moreVideos .thumbnailBox .thumbTitle {
+        background-color: #f1f5fd;
+        border-top: 5px solid #212f62;
+        transition: 300ms;
+        min-height: 85px;
+
+    }
+
+    #videos .VideoSections #moreVideos a:hover .thumbnailBox .thumbTitle {
+        /* background-color: #eaeaea; */
+        box-shadow: 0 5px 10px rgb(0 0 0 / 10%), 0 5px 10px rgb(0 0 0 / 10%);
+
+    }
+
+    #videos .VideoSections #moreVideos .thumbnailBox .thumbTitle p{
+        font-size: 16px;
+    }
+
+    #videos .VideoSections #moreVideos a:hover .thumbnailBox .thumbTitle p{
+        color: rgb(15, 89, 199);
+
+    }
+
+    #videos .VideoSections #moreBtn a{
+        color: rgb(0, 35, 131);
+        transition: 200ms;
+
+    }
+
+    #videos .VideoSections #moreBtn a:hover{
+        color: rgb(0, 102, 255);
+
+    }
+        /* ALL VIDEO SECTIONS ENDS */
+
+
+
+
+        
+        /* MEDIA QUERIES */
+
+
+@media (min-width:992px) and (max-width: 1200px){
+    
+    #videos .VideoSections #moreVideos .thumbnailBox .thumbTitle p{
+        font-size: 15px;
+    }
+
+  #videos .VideoSections #moreVideos .thumbnailBox .thumbTitle {
+        min-height: 100px;
+    }
+
+}
+
+
+
+@media (min-width:768px) and (max-width: 991px){
+
+  #videos .VideoSections #moreVideos .thumbnailBox .thumbTitle p{
+        font-size: 14px;
+    }
+
+  #videos .VideoSections #moreVideos .thumbnailBox .thumbTitle {
+        min-height: 100px;
+    }
+    
+}
+
+
+
+
+@media (min-width:576px) and (max-width: 767px){
+
+  #videos .VideoSections #moreVideos .thumbnailBox .thumbTitle p{
+        font-size: 14px;
+    }
+
+    #videos .VideoSections #moreVideos .thumbnailBox .thumbTitle {
+        min-height: 100px;
+    }
+    
+}
+
+
+
+
+@media (max-width:575px){
+
+    #videos .VideoSections > div > h1:first-child {
+        font-size: 1.8em;
+
+    }
+
+}
+
+/*************** VIDEOS PAGE ENDS ***********/
