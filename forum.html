@@ -33,7 +33,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body id="contactUs">
+<body id="forum">
   <!-- FIRST MINI NAV -->
   <div id="firstnav">
     <div class="container">
@@ -78,8 +78,10 @@
           </ul>
         </div>
         <div class="col-12 col-sm-6 text-sm-right text-center my-1">
-          <a href="./register.html" class="mr-3"><span class="loginIcons mr-2"><i class="fas fa-user"></i></span>Register</a>
-          <a href="./login.html" class=""><span class="loginIcons mr-2"><i class="fas fa-arrow-right"></i></span>Login</a>
+          <a href="./register.html" class="mr-3"><span class="loginIcons mr-2"><i
+                class="fas fa-user"></i></span>Register</a>
+          <a href="./login.html" class=""><span class="loginIcons mr-2"><i
+                class="fas fa-arrow-right"></i></span>Login</a>
         </div>
       </div>
     </div>
@@ -121,7 +123,7 @@
               <a class="nav-link" href="#">Blog</a>
             </li>
             <li class="nav-item mr-3">
-              <a class="nav-link" href="#"><i class="fas fa-car mr-2"></i>Post an Ad</a>
+              <a class="nav-link" href="./advertise.html"><i class="fas fa-car mr-2"></i>Post an Ad</a>
             </li>
           </ul>
         </div>
@@ -129,68 +131,120 @@
     </div>
   </header>
   <!-- MAIN NAVBAR ENDS -->
- 
-  <div class="row contactform">
-       <div class="col-12 col-md-7 bg-contact position-relative d-flex flex-column  justify-content-center align-items-center align-content-center">
-        <h1 class="text-white text-center mb-4">HELLO!</h1>
-        <p class="text-white text-center mb-2">Let us know what you have in mind, So we could be of help. </p>
-        <p class="text-white text-center mb-2"> Get the latest news and info regarding vehicles, real quick.</p>
-        <p class="text-white text-center mb-2"> Lorem ipsum dolor sit amet consectetur.</p>
-        <div id="get-startedbtn" class="text-center mt-4">
-        <a href="#" class="text-white">Get Started</a>
-      </div>
-    </div>
 
-    <div id="formSection" class="col-12 col-md-5 py-5 px-5 px-md-3 pr-md-5">
-      <h1 class="mb-5">Contact Us</h1>
-      <form action="?" method="POST">
-        <div class="form-row form-group mb-4">
-          <div class="col">
-            <label for="Fname">First Name</label>
-            <input type="text" id="Fname" name="firstname" class="form-control" placeholder="Rahul" required>
-          </div>
-          <div class="col">
-            <label for="Lname">Last Name</label>
-            <input type="text" id="Lname" name="lastname" class="form-control" placeholder="Gianchandani" required>
-          </div>
-        </div>
-        <div class="form-group mb-4">
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Rahul_7872@yahoo.com" required>
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        
-        <div class="form-group mb-4">
-          <label for="phone">Phone Number</label>
-          <input type="tel" class="form-control" id="phone" name="phonenumber" placeholder="03xxxxxxxxx" required>
-        </div>
-          <div class="form-group mb-4">
-            <label for="exampleFormControlSelect1">Subject</label>
-            <select class="form-control" id="exampleFormControlSelect1" required>
-              <option>Advertisement</option>
-              <option>Fraud</option>
-              <option>Blog</option>
-              <option>Contacting</option>
-              <option>Forums</option>
-              <option>Suggestion / Feedback</option>
-              <option>Partnership</option>
-              <option>Registration</option>
-            </select>
-          </div>
-        
-        <div class="form-group mb-4">
-          <label for="exampleFormControlTextarea1">Messege</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-        </div>
-        <!-- <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-      <input type="submit" value="Submit"> -->
-      <div class="submitBtn text-center mt-5">
-        <button type="submit" class="btn">Submit</button>
-      </div>
-      </form>
+
+  <div id="forumSection" class="">
+    <div class="mx-md-3 mx-lg-5 mb-5">
+    <h2 class="text-center py-5 position-relative">PakDrive Forums</h2>
+    <div id="BothForums" class="row mx-0">
+    <div id="mainForum" class=" col-12 col-md-9    px-sm-5">
+    <div class="row  col-12 justify-content-between align-items-end  mx-0 px-0 py-3">
+      <a href="#" id="newTopic"><i class="fas fa-pen mr-2 align-middle"></i>New Post</a>
+      <a href="#" id="UnansThread" class="font-weight-bold">Unanswered Threads</a>
     </div>
+    <div class="forumTable col-12 col-12 ">
+      <ul class="row list-unstyled headings mb-0 py-3">
+        <li class="col-4">Forum</li>
+        <li class="col-4">New Post</li>
+        <li class="col-2">Threads</li>
+        <li class="col-2">Posts</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">News & Update</h6></a>
+          <p>Latest News & Updates regarding the forum. Only mods have access to post in it.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Hello, Thank you for joining!</a><p> <span>by</span> <a href="#" class="PosterName">JustinBieber</a>, <span>23-Oct-2021, 2:03 AM</span></p></li>
+        <li class="col-2">230</li>
+        <li class="col-2">1200</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">General Discussion</h6></a>
+          <p>Talk about anything Car related that does fit into this category indeed.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">What cars do you have?</a><p> <span>by</span> <a href="#" class="PosterName">PaulWalker</a>, <span>29-Aug-2020, 4:23 PM</span></p></li>
+        <li class="col-2">120</li>
+        <li class="col-2">900</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Repair & Maintenance</h6></a>
+          <p>Get repair help with your car or share your repair knowledge with others.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Repair my Car please, for free?</a><p> <span>by</span> <a href="#" class="PosterName">RahulGCD</a>, <span>13-July-2022, 3:09 AM</span></p></li>
+        <li class="col-2">590</li>
+        <li class="col-2">3400</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Spares & Accessories</h6></a>
+          <p>Discuss spares/accessories availabity related issues.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1"> for new Honda amaze 2nd generaton</a><p> <span>by</span> <a href="#" class="PosterName">xyz_123</a>, <span>24-June-2020, 2:03 PM</span></p></li>
+        <li class="col-2">930</li>
+        <li class="col-2">12000</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Tuning & Performance</h6></a>
+          <p>Want to speed up your car a little bit or you want to tell others how they can do the same? Post here then!</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Bad performance of bike after tuning.</a><p> <span>by</span> <a href="#" class="PosterName">uNknown_423</a>, <span>2-Feb-2021, 7:40 AM</span></p></li>
+        <li class="col-2">2320</li>
+        <li class="col-2">1030</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Buying & Selling</h6></a>
+          <p>Debate your new purchase or how you should sell your car easily. Everything related to buying and selling.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Mehran model 2012 Vs Ferrari 2021</a><p> <span>by</span> <a href="#" class="PosterName">ElenaSr</a>, <span>30-Jan-2021, 2:30 PM</span></p></li>
+        <li class="col-2">23</li>
+        <li class="col-2">400</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">	Reviews - Owners & Users</h6></a>
+          <p>Write your own road-test, review, test-drive or long-term ownership experience.</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Pefect car of 2021, Audi 2015!!</a><p> <span>by</span> <a href="#" class="PosterName">Sr.Don</a>, <span>19-Dec-2021, 11:23 AM</span></p></li>
+        <li class="col-2">90</li>
+        <li class="col-2">140</li>
+      </ul>
+      <ul class="row list-unstyled mb-0 py-3">
+        <li class="col-4"><a href="#"><h6 class="mb-0">Site Feedback</h6></a>
+          <p>Do you have something that you do not like about our site, or have a suggestion of how we can do better? Let us know here!</p>
+        </li>
+        <li class="col-4"><a href="#" class="mb-1">Website Developer Rahul is genius wow!!</a><p> <span>by</span> <a href="#" class="PosterName">Nobody</a>, <span>2-Sept-2021, 9:23 PM</span></p></li>
+        <li class="col-2">560</li>
+        <li class="col-2">120</li>
+      </ul>
+    </div>
+      </div>
+      <aside class="col-12 col-md-3 px-5 px-md-2">
+      <div id="recentForum" class="recent ">
+        <div class="container">
+        <p class="py-3">Recent Topics</p>
+        <ul class="px-0">
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">Get it fixed right now!!</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">Sk_Spawn</a> <span class="d-block">2-Sept-2021, 9:23 PM</span></p></li>
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">I need audi latest model for free.</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">Team42</a> <span class="d-block"> 23-Oct-2021, 2:03 AM</span></p></li>
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">Review new Alto GLI</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">Affi</a> <span class="d-block">30-Jan-2021, 2:30 PM</span></p></li>
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">USB suggesstion for my new Bike socket</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">BenStocks</a> <span class="d-block">29-Aug-2020, 4:23 PM</span></p></li>
+        <li class=" mb-3 list-unstyled"><a href="#" class="mb-1">PakDrive Owner Name</a><p class="mb-3"> <span>by</span> <a href="#" class="PosterName">PakDrive_Emp</a> <span class="d-block">13-July-2022, 3:09 AM</span></p></li>
+      </ul>
+      </div>
+    </div>
+      <div id="recentBlog" class="recent mt-5">
+        <div class="container">
+        <p class="py-3">Recent Blog Posts</p>
+        <ul class="px-0">
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">Beauty of PakDrive</h6></a></li>
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">Top Sales from Toyota this Month!!</h6></a></li>
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">Is Mehran still the Boss?</h6></a></li>
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">Increase in Petrol Prices Lately</h6></a></li>
+        <li class="mb-3 list-unstyled"><a href="#" class="mb-1"><h6 class="py-2">How Rahul Developed this Website?</h6></a></li>
+      </ul>
+      </div>
+    </div>
+  </aside>
+    </div>
+  
   </div>
+
 
 
 
@@ -206,12 +260,14 @@
             <h5 class="text-white pb-5">Resources</h5>
             <ul class="px-0 text-secondary">
               <li class="list-unstyled text-decoration-none mb-2"><a href="#">About PakDrives</a></li>
-              <li class="list-unstyled text-decoration-none mb-2"><a href="./advertise.html">Advertise With Us</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="./advertise.html">Advertise
+                  With Us</a></li>
               <li class="list-unstyled text-decoration-none mb-2"><a href="#">How to Pay</a></li>
               <li class="list-unstyled text-decoration-none mb-2"><a href="#">FAQs</a></li>
               <li class="list-unstyled text-decoration-none mb-2"><a href="#">Refunds & Returns</a></li>
               <li class="list-unstyled text-decoration-none mb-2"><a href="#">Careers</a></li>
-              <li class="list-unstyled text-decoration-none mb-2"><a href="./contactus.html">Contact Us</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="./contactus.html">Contact
+                  Us</a></li>
             </ul>
 
           </section>
