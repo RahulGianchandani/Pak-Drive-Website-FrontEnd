@@ -111,7 +111,7 @@
               <a class="nav-link" href="./newcars.html">New Cars</a>
             </li>
             <li class="nav-item mr-3">
-              <a class="nav-link" href="#">Auto Store</a>
+              <a class="nav-link" href="./autostore.html">Auto Store</a>
             </li>
             <li class="nav-item mr-3">
               <a class="nav-link" href="./videos.html">Videos</a>
@@ -448,7 +448,7 @@
             </div>
             <div id="carinfoform" class="pb-5">
               <h1 class="text-center py-5  position-relative">Enter Details</h1>
-              <form class="row flex-column col-12 col-sm-8 col-md-8 col-lg-6 offset-lg-3 offset-md-2 offset-sm-2">
+              <form action="somefile.php" method="post" name="myForm" class="row flex-column col-12 col-sm-8 col-md-8 col-lg-6 offset-lg-3 offset-md-2 offset-sm-2">
                 <div class="form-group mt-3">
                   <label for="exampleFormControlSelect1">Year</label>
                   <select class="form-control" id="exampleFormControlSelect1" required>
@@ -580,7 +580,7 @@
             <div id="PersonalInfo" class="my-5">
               <h1 class="text-center py-5 position-relative">Personal Details</h1>
 
-              <form
+              <form action="somefile.php" method="post" name="myForm" 
                 class="row flex-column py-5 col-12 col-sm-8  col-md-8  col-lg-6 offset-lg-3 offset-md-2 offset-sm-2">
 
                 <div class=" form-group">
@@ -602,11 +602,10 @@
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                     else.</small>
                 </div>
-
               </form>
             </div>
             <div class="submitBtn text-center mt-4">
-              <button type="submit" class="btn d-block col-sm-6 col-md-4 offset-sm-3 offset-md-4">Submit &
+              <button type="submit" form="myForm" class="btn d-block col-sm-6 col-md-4 offset-sm-3 offset-md-4">Submit &
                 Continue</button>
             </div>
 
@@ -742,7 +741,7 @@
                     class="ContactIcons mr-2"><i class=" fas fa-phone-alt footerIcon"></i></span>+01 1234 567 89</a>
               </li>
             </ul>
-            <form class="row ml-0 mt-md-4 mt-4 no-gutters">
+            <form action="somefile.php" method="post" name="myForm" class="row ml-0 mt-md-4 mt-4 no-gutters">
               <div class="col-8 col-md-7">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                   placeholder="Email" required>

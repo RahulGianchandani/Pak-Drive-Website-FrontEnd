@@ -1,0 +1,1466 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="icon" href="./images/favIcon.ico.png" sizes="16x16" type="image/png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Js File -->
+  <script src='./js/script.js'></script>
+
+  <!-- Google Rcaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <!-- Normal Custom CSS -->
+  <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+  <title>AutoStore | PAK DRIVE</title>
+  <!-- OWL CAROUSEL LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="autostore">
+  <!-- FIRST MINI NAV -->
+  <div id="firstnav">
+    <div class="container">
+      <div class="row align-items-center justify-content-center py-1">
+        <div class="col-12 col-sm-6 text-left">
+          <ul class="d-flex align-items-center justify-content-sm-start justify-content-center my-0 px-0">
+            <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
+                    class="fab fa-facebook"></i></span></a></li>
+            <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
+                    class="fab fa-twitter"></i></span></a></li>
+            <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
+                    class="fab fa-linkedin-in"></i></span></a></li>
+            <li class="px-2 px-lg-3 px-xl-3 "><a href="#"><span class="firstNavIcons"><i
+                    class="fab fa-google-plus-g"></i></span></a></li>
+            <li class="px-2 px-lg-3 px-xl-3 "><a id="midline"></a></li>
+            <li>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Language
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">English (UK)</a>
+                  <a class="dropdown-item" href="#">English (US)</a>
+                  <a class="dropdown-item" href="#">Urdu</a>
+                  <a class="dropdown-item" href="#">Sindhi</a>
+                  <a class="dropdown-item" href="#">Bengali</a>
+                  <a class="dropdown-item" href="#">Español</a>
+                  <a class="dropdown-item" href="#">Spanish</a>
+                  <a class="dropdown-item" href="#">Arabic</a>
+                  <a class="dropdown-item" href="#">Chinese</a>
+                  <a class="dropdown-item" href="#">Hindi</a>
+                  <a class="dropdown-item" href="#">Russian</a>
+                  <a class="dropdown-item" href="#">French</a>
+                  <a class="dropdown-item" href="#">Portguese</a>
+                  <a class="dropdown-item" href="#">Dutch</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Another Language?</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 text-sm-right text-center my-1">
+          <a href="./register.html" class="mr-3"><span class="loginIcons mr-2"><i
+                class="fas fa-user"></i></span>Register</a>
+          <a href="./login.html" class=""><span class="loginIcons mr-2"><i
+                class="fas fa-arrow-right"></i></span>Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- FIRST MINI NAV -->
+
+
+  <!-- MAIN NAVBAR -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a id="logoIcon" class="navbar-brand" href="./index.html"><img src="./images/Nav-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+          <ul id="Items" class="navbar-nav justify-content-between align-items-lg-center">
+            <li class="nav-item  mr-2">
+              <a class="nav-link" href="./usedcars.html">Used Cars<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./newcars.html">New Cars</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./autostore.html">Auto Store</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./videos.html">Videos</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./forum.html">Forum</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="./advertise.html"><i class="fas fa-car mr-2"></i>Post an Ad</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- MAIN NAVBAR ENDS -->
+
+
+  <!-- CAR NAVBAR SECTION  -->
+
+  <section id="Carnav">
+    <div class="container h-100">
+      <div class="row flex-lg-column  align-items-center align-content-center justify-content-center pt-5">
+        <h1 class="mb-3">Search parts for your car</h1>
+        <p class="mx-5 text-center">With thousands of new and used car parts, we have just the right one for you</p>
+        <form id="dropdowns" action="somefile.php" method="post" name="myForm"
+          class="row flex-sm-row flex-column  align-items-center justify-content-center  py-5 p-3 rounded z-index-1000">
+          <div class="dropdown text-center">
+            <button class="btn btn-secondary dropdown-toggle py-3  w-100" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Choose Make
+            </button>
+            <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Toyota</a>
+              <a class="dropdown-item" href="#">Audi</a>
+              <a class="dropdown-item" href="#">BMW</a>
+              <a class="dropdown-item" href="#">Mercedes</a>
+              <a class="dropdown-item" href="#">Honda</a>
+              <a class="dropdown-item" href="#">Suzuki</a>
+              <a class="dropdown-item" href="#">Lamborghini</a>
+              <a class="dropdown-item" href="#">Ferrari</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Another Brand?</a>
+            </div>
+          </div>
+          <div class="dropdown text-center  mt-4 mt-sm-0 ">
+            <button class="btn btn-secondary dropdown-toggle py-3  w-100" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Choose Model
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Coure</a>
+              <a class="dropdown-item" href="#">Mira</a>
+              <a class="dropdown-item" href="#">Corolla</a>
+              <a class="dropdown-item" href="#">City</a>
+              <a class="dropdown-item" href="#">Aqua</a>
+              <a class="dropdown-item" href="#">Vezel</a>
+              <a class="dropdown-item" href="#">Ferrari</a>
+              <a class="dropdown-item" href="#">Audi</a>
+              <a class="dropdown-item" href="#">Mercedes</a>
+              <a class="dropdown-item" href="#">Alto</a>
+              <a class="dropdown-item" href="#">Mehran</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Another Model?</a>
+            </div>
+          </div>
+          <div class="dropdown text-center  mt-4 mt-sm-0 ">
+            <button class="btn btn-secondary dropdown-toggle py-3 w-100" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Choose Year
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">2021</a>
+              <a class="dropdown-item" href="#">2020</a>
+              <a class="dropdown-item" href="#">2019</a>
+              <a class="dropdown-item" href="#">2018</a>
+              <a class="dropdown-item" href="#">2017</a>
+              <a class="dropdown-item" href="#">2016</a>
+              <a class="dropdown-item" href="#">2015</a>
+              <a class="dropdown-item" href="#">2014</a>
+              <a class="dropdown-item" href="#">2013</a>
+              <a class="dropdown-item" href="#">2012</a>
+              <a class="dropdown-item" href="#">2011</a>
+              <a class="dropdown-item" href="#">2010</a>
+              <a class="dropdown-item" href="#">2009</a>
+              <a class="dropdown-item" href="#">2008</a>
+              <a class="dropdown-item" href="#">2007</a>
+              <a class="dropdown-item" href="#">2006</a>
+              <a class="dropdown-item" href="#">2005</a>
+              <a class="dropdown-item" href="#">2004</a>
+              <a class="dropdown-item" href="#">2003</a>
+              <a class="dropdown-item" href="#">2002</a>
+              <a class="dropdown-item" href="#">2001</a>
+              <a class="dropdown-item" href="#">2000</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else?</a>
+            </div>
+          </div>
+          <div id="searchBtn" class="text-center  mt-5 mt-sm-0 mb-0 ">
+            <button type="submit"><i class="fas fa-search mr-2 "></i>Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAR NAVBAR SECTION ENDS -->
+  <div id="MainStore" class="pt-5 ">
+    <div class="container py-5 ">
+      <div class="row">
+        <aside id="menuPortion" class="  col-sm-6  col-lg-3 mt-5">
+          <div>
+          <h4 class="my-3">Categories</h4>
+            <div class="">
+                <li id="" class="mb-3 position-relative"><a href="#" class="main-menu d-block">Sale Products</a></li>
+                <li class="mb-3 position-relative"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Brands</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#">3M</a></li>
+                    <li><a href="#">7CF</a></li>
+                    <li><a href="#">Areon</a></li>
+                    <li><a href="#">Armor All</a></li>
+                    <li><a href="#">AGS</a></li>
+                    <li><a href="#">Blue Coral</a></li>
+                    <li><a href="#">Auto Finesse</a></li>
+                    <li><a href="#">Dr. Marcus</a></li>
+                    <li><a href="#">Liqui Moly</a></li>
+                    <li><a href="#">Dunlop</a></li>
+                    <li><a href="#">DLAA</a></li>
+                    <li><a href="#">Guard</a></li>
+                    <li><a href="#">Ingco</a></li>
+                    <li><a href="#">Kixx</a></li>
+                    <li><a href="#">Chemical Guys</a></li>
+                    <li><a href="#">Flamingo</a></li>
+                    <li><a href="#">Remax</a></li>
+                    <li><a href="#">Mobil</a></li>
+                    <li><a href="#">Yokohama</a></li>
+                    <li><a href="#">Pentair</a></li>
+                    <li><a href="#">Aroma</a></li>
+                    <li><a href="#">Caltex Havoline</a></li>
+                    <li><a href="#">Formula 1</a></li>
+                    <li><a href="#">K2</a></li>
+                    <li><a href="#">Kangaroo</a></li>
+                    <li><a href="#">Karcher</a></li>
+                    <li><a href="#">Anker</a></li>
+                    <li><a href="#">Kenco</a></li>
+                    <li><a href="#">Meguiar’s</a></li>
+                    <li><a href="#">Mothers</a></li>
+                    <li><a href="#">Nanoskin</a></li>
+                    <li><a href="#">Rain-X</a></li>
+                    <li><a href="#">Simoniz</a></li>
+                    <li><a href="#">Sonax</a></li>
+                    <li><a href="#">SPARCO</a></li>
+                    <li><a href="#">Stoner</a></li>
+                    <li><a href="#">Turtle Wax</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Car Accessories</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" class="d-block" data-depth="1"><i class="fas fa-angle-right"></i>Mats</a></button>
+                      <ul class="sub-sub-menu px-3 py-2">
+                        <li><a href="#">Dash Mats</a></li>
+                        <li><a href="#">Floor Mats</a></li>
+                        <li><a href="#">Non Slip Mats</a></li>
+                        <li><a href="#">Insulation lining</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="d-block"><i class="fas fa-angle-right"></i>Interior Accessories</a></button>
+                      <ul class="sub-sub-menu px-3 py-2">
+                        <li><a href="#">Anti-theft Locks</a></li>
+                        <li><a href="#">Ashtrays</a></li>
+                        <li><a href="#">Console Boxes</a></li>
+                        <li><a href="#">Gear Knobs</a></li>
+                        <li><a href="#">Seat Belt Clips</a></li>
+                        <li><a href="#">Seat Covers and Cushions</a></li>
+                        <li><a href="#">Steering Wheel Accessories</a></li>
+                        <li><a href="#">Sun Shades</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="d-block"><i class="fas fa-angle-right"></i>Exterior Accessories</a></button>
+                      <ul class="sub-sub-menu px-3 py-2">
+                        <li><a href="#">AirPress</a></li>
+                        <li><a href="#">Top Covers</a></li>
+                        <li><a href="#">Antennas</a></li>
+                        <li><a href="#">Body Accessories</a></li>
+                        <li><a href="#">Body Kits</a></li>
+                        <li><a href="#">Window Tints</a></li>
+                        <li><a href="#">Chrome Products</a></li>
+                        <li><a href="#">Horns</a></li>
+                        <li><a href="#">Mufflers</a></li>
+                        <li><a href="#">Performance Parts</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Car Care</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" data-depth="1" class="d-block"><i class="fas fa-angle-right"></i>Exterior Car Care</a>
+                      <ul class="sub-sub-menu px-3 py-2">
+                        <li><a href="#">Brushes and Sponges</a></li>
+                        <li><a href="#">Washers and Polishers</a></li>
+                        <li><a href="#">Car Wash/Shampoo</a></li>
+                        <li><a href="#">Exterior Cleaners</a></li>
+                        <li><a href="#">Polishes</a></li>
+                        <li><a href="#">Protectants</a></li>
+                        <li><a href="#">Tire Care</a></li>
+                        <li><a href="#">Waxes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class=" d-block" data-depth="1"><i class="fas fa-angle-right"></i>Interior Car Care</a>
+                      <ul class="sub-sub-menu px-3 py-2">
+                        <li><a href="#">Air Fresheners and Perfumes</a></li>
+                        <li><a href="#">Odour eliminators</a></li>
+                        <li><a href="#">Interior Cleaners</a></li>
+                        <li><a href="#">Fabric Cleaners</a></li>
+                        <li><a href="#">Wipes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="d-block">Car Care Kits</a></li>
+                    <li><a href="#" class="d-block">Coolants</a></li>
+                    <li><a href="#" class="d-block">Glass Care</a></li>
+                    <li><a href="#" class="d-block">Cleaning Cloth</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative" aria-haspopup="true"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Oil &amp; Additives</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" class="d-block">Brake Oil</a></li>
+                    <li><a href="#" class="d-block">Engine Oil</a></li>
+                    <li><a href="#" class="d-block">Oil Additives</a></li>
+                    <li><a href="#" class="d-block">Steering Oil</a></li>
+                    <li><a href="#" class="d-block">Transmission Oil</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative" aria-haspopup="true"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Car Care Pro</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" class="d-block">Mothers Pro Series</a></li>
+                    <li><a href="#" class="d-block">3M Pro Series</a></li>
+                    <li><a href="#" class="d-block">Meguiars Pro Series</a></li>
+                    <li><a href="#" class="d-block">Auto Finesse Pro Series</a></li>
+                    <li><a href="#" class="d-block">Sonax Pro Series</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative" aria-haspopup="true"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Car Filter</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" class="d-block">AC Cabin Filter</a></li>
+                    <li><a href="#" class="d-block">Air Filter</a></li>
+                    <li><a href="#" class="d-block">Fuel Filter</a></li>
+                    <li><a href="#" class="d-block">Oil Filter</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative" aria-haspopup="true"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Car Electronics</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" class="d-block">Cameras</a></li>
+                    <li><a href="#" class="d-block">Stereo Systems</a></li>
+                    <li><a href="#" class="d-block">Multimedia Systems &amp; DVD Players</a></li>
+                    <li><a href="#" class="d-block">Speakers and Amplifiers</a></li>
+                    <li><a href="#" class="d-block">Security Systems</a></li>
+                    <li><a href="#" class="d-block">Mobile Accessories</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative" aria-haspopup="true"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>LED Lights</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" class="d-block">DRL &amp; Fog Lamps</a></li>
+                    <li><a href="#" class="d-block">LED Head Lights</a></li>
+                    <li><a href="#" class="d-block">LED Tail Lights</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative" aria-haspopup="true"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Car Parts</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" class="d-block">Back Lights</a></li>
+                    <li><a href="#" class="d-block">Head Lights</a></li>
+                    <li><a href="#" class="d-block">Mud Flap</a></li>
+                    <li><a href="#" class="d-block">Spark Plugs</a></li>
+                    <li><a href="#" class="d-block">Wiper Blades</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative" aria-haspopup="true"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>4×4 SUV items</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#4x4-suv-items/" class="d-block">4×4 / SUV</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative" aria-haspopup="true"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Tyre &amp; Wheels</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" class="d-block">Tyres</a></li>
+                    <li><a href="#" class="d-block">Wheel Covers</a></li>
+                    <li><a href="#" class="d-block">Wheel Accessories</a></li>
+                    <li><a href="#" class="d-block">Nuts</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative" aria-haspopup="true"><a href="#" class="main-menu d-block" data-depth="0"><i class="fas fa-angle-right"></i>Tools</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#" class="d-block">Basic Tools</a></li>
+                    <li><a href="#" class="d-block">Tool Kits</a></li>
+                    <li><a href="#" class="d-block">Air Compressors</a></li>
+                    <li><a href="#" class="d-block">Cable and Jump Starters</a></li>
+                  </ul>
+                </li>
+                <li class="mb-3 position-relative"><a href="#" data-depth="0" class="main-menu d-block"><i class="fas fa-angle-right"></i>Batteries</a>
+                  <ul class="sub-menu px-3 py-2">
+                    <li><a href="#ags/" class="d-block" >AGS</a></li>
+                    <li><a href="#" class="d-block" >Osaka</a></li>
+                    <li><a href="#" class="d-block"  aria-haspopup="true">Others</a>
+                        <ul class="sub-menu px-3 py-2">
+                          <li><a href="#" class="d-block">Pedal Accessories</a></li>
+                          <li><a href="#" class="d-block">Monograms</a></li>
+                          <li><a href="#" class="d-block">Key Chains</a></li>
+                        </ul>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+        </aside>
+      
+      <div id="partsPortion" class="col-md-12 col-lg-9 mt-5">
+        <h3 class="my-3 text-center">Car Accessories and Spare Parts in Pakistan</h3>
+        <section id="LatestParts">
+          <div class="header-bg position-relative row align-items-center justify-content-center mx-0">
+            <h3 class="text-center text-white">LATEST PARTS</h3>
+          </div>
+          <div class="cotainer">
+          <div class="partsbox mx-0 row">
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+        </section>
+        <section id="LatestKits" class="pt-5">
+          <div class="header-bg position-relative row align-items-center justify-content-center mx-0">
+            <h3 class="text-center text-white">LATEST CAR KITS</h3>
+          </div>
+          <div class="cotainer">
+          <div class="partsbox mx-0 row">
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+        </section>
+        <section id="LatestEngine" class="pt-5">
+          <div class="header-bg position-relative row align-items-center justify-content-center mx-0">
+            <h3 class="text-center text-white">LATEST ENGINE PARTS</h3>
+          </div>
+          <div class="cotainer">
+          <div class="partsbox mx-0 row">
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+        </section>
+        <section id="LatestSellers" class="pt-5">
+          <div class="header-bg position-relative row align-items-center justify-content-center mx-0">
+            <h3 class="text-center text-white">HOT SELLERS</h3>
+          </div>
+          <div class="cotainer">
+          <div class="partsbox mx-0 row">
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 py-4 mx-5 mx-sm-0">
+              <div class="card position-relative" >
+                <a href="#">
+                <img class="card-img-top" src="./images/blog-pics/petrol.jpg" height="150px" alt="Card image cap">
+              </a>
+                <div class="card-body">
+                  <a href="#">
+                  <h5 class="card-title text-center mb-1">Bumper</h5>
+                  <h6 class="card-title text-center ">Rs 25,000</h6>
+                </a>
+                  <p class="card-text "></p>
+                  <div class="text-center ">
+                   <a href="#" class="mr-2"><i class="fas fa-shopping-cart"></i></a>
+                   <a href="#" class=""><i class="fas fa-eye"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+
+  <!-- FOOTER -->
+  <Footer id="footer">
+    <div class="footer-top text-white py-5">
+      <div class=" container">
+        <div class="row justify-content-between text-center text-md-left  ">
+          <!-- FOOTER TOP -->
+
+          <section id="Resources" class="pb-5 pb-md-0col-xl-2 col-lg-2 col-md-2 ">
+            <h5 class="text-white pb-5">Resources</h5>
+            <ul class="px-0 text-secondary">
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">About PakDrives</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="./advertise.html">Advertise
+                  With Us</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">How to Pay</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">FAQs</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Refunds & Returns</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Careers</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="./contactus.html">Contact
+                  Us</a></li>
+            </ul>
+
+          </section>
+
+          <section id="ProvinceCars" class="pb-5 pb-md-0col-xl-3 col-lg-3 col-md-3 ">
+            <h5 class="text-white pb-5">Cars by Province</h5>
+            <ul class="px-0 text-secondary">
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in Punjab</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in Sindh</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in KPK</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Cars in Balochistan</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Azad Kashmir</a></li>
+              <li class="list-unstyled text-decoration-none mb-2"><a href="#">Federally Administered
+                  Tribal Areas</a></li>
+            </ul>
+
+          </section>
+          <section id="Contact" class="pb-5 pb-md-0col-xl-3 col-lg-3 col-md-4 ">
+            <h5 class="text-white pb-5">Contact</h5>
+            <ul class="px-0 text-secondary">
+              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="#"><span
+                    class="ContactIcons mr-2"><i class="fas fa-car footerIcon "></i></span>New York,
+                  NY 10012, US</a></li>
+              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a
+                  href="mailto:pakdrives@example.com"><span class="ContactIcons mr-2"><i
+                      class="fas fa-envelope footerIcon"></i></span>pakdrives@example.com</a></li>
+              <li class="list-unstyled text-decoration-none mb-2 mb-md-3 mb-lg-2"><a href="tel:+01123456789"><span
+                    class="ContactIcons mr-2"><i class=" fas fa-phone-alt footerIcon"></i></span>+01 1234 567 89</a>
+              </li>
+            </ul>
+            <form action="somefile.php" method="post" name="myForm" class="row ml-0 mt-md-4 mt-4 no-gutters">
+              <div class="col-8 col-md-7">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Email" required>
+              </div>
+              <button type="submit" class="btn btn-primary col-4 col-md-5">Subscribe</button>
+            </form>
+          </section>
+
+          <section id="Follow" class="pb-5 pb-md-0 col-xl-3 col-lg-3 col-md-3 ">
+            <h5 class="text-white pb-5 mb-0">Follow Us</h5>
+            <ul class="ml-0 px-0 row justify-content-center justify-content-md-start">
+              <li class="mr-3 mr-md-2 mr-lg-3   list-unstyled text-decoration-none"><a href="#"><span
+                    class="footerSocialIcons"><i class="fab fa-facebook-f"></i></span></a></li>
+              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none "><a href="#"><span
+                    class="footerSocialIcons"><i class="fab fa-linkedin-in"></i></span></a></li>
+              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none"><a href="#"><span
+                    class="footerSocialIcons"><i class="fab fa-twitter"></i></span></a></li>
+              <li class="mr-3 mr-md-2 mr-lg-3  list-unstyled text-decoration-none"><a href="#"><span
+                    class="footerSocialIcons"><i class="fab fa-google-plus-g"></i></span></a></li>
+            </ul>
+            <h5 class="position-relative mt-5 mt-md-4 pb-5 mb-0">Donwload App</h5>
+            <div class="row badges justify-content-center justify-content-md-between ml-0">
+              <a href="#" class="mb-md-3 mb-lg-0 mr-3 mr-md-0"><img src="./images/google-play-badge.png"
+                  alt="google play store badge"></a>
+              <a href="#"><img src="./images/app-store-Badge.png" alt="apple app store badge"></a>
+            </div>
+          </section>
+
+
+          <!-- FOOTER  TOP ENDS -->
+
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER - BOTTOM  -->
+
+    <div id="bottom" class="footer-bottom py-3">
+      <div class="container">
+        <div class="row justify-content-center">
+
+          <p class="my-0">Copyright &#169; 2020-<span>PakistanDrives</span>. All rights reserved. </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="scrolltotop">
+      <a href="#top"><i class="fa fa-arrow-circle-up"></i></a>
+    </div>
+  </Footer>
+  <!-- FOOTER ENDS -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- OWL CAROUSEL CDN SCRIPT LINK -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+</body>
+
+</html>
