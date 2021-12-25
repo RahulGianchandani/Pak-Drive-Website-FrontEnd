@@ -22,7 +22,7 @@
 
   <!-- Normal Custom CSS -->
   <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
-  <title>Register | PAK DRIVE</title>
+  <title>Contact | PAK DRIVE</title>
   <!-- OWL CAROUSEL LINK -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
@@ -33,7 +33,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body id="register">
+<body id="faq">
   <!-- FIRST MINI NAV -->
   <div id="firstnav">
     <div class="container">
@@ -129,79 +129,67 @@
     </div>
   </header>
   <!-- MAIN NAVBAR ENDS -->
- 
-  <div class="row flex-column contactform justify-content-center align-items-center position-relative">
-    <div class="mx-5">
-    <div id="formSection" class=" ">
-      <div class="container py-5 px-4 px-sm-5">
-      <h3 class="mb-5">Sign up to PakDrive</h3>
-      <form action="?" method="POST">
-        <div class="form-row form-group mb-4">
-          <div class="col">
-            <label for="Fname">First Name</label>
-            <input type="text" id="Fname" class="form-control" name="firstname" placeholder="Rahul" required>
+
+  
+  <div id="FAQSection" class="">
+    <div class="container">
+    <h2 class="text-center position-relative py-5 ">Frequently Asked Questions</h2>
+    <div id="Faqs"> 
+      <div id="accordion" class="py-5">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0 ">
+              <button class="position-relative btn btn-link c w-100 mx-0 d-flex row align-items-center justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               <span> How do I Post advertisement here? </span>
+                <!-- <i class="fas fa-plus "></i> -->
+              </button>
+            </h5>
           </div>
-          <div class="col">
-            <label for="Lname">Last Name</label>
-            <input type="text" id="Lname" class="form-control" name="lastname" placeholder="Gianchandani" required>
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+             We don't do that here.
+            </div>
           </div>
         </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Rahul_7872@yahoo.com">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+       
+        <div class="card my-3">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0 ">
+              <button class="position-relative btn btn-link c w-100 mx-0 d-flex row align-items-center justify-content-between collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+               <span> How do I steal a car? </span>
+                <!-- <i class="fas fa-plus "></i> -->
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              Fuck you bot 
+            </div>
+          </div>
         </div>
-        <div class="form-group mb-4">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="password1" placeholder="6+ chars, 1 digit & 1 Cap letter">
+       
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0 ">
+              <button class="position-relative btn btn-link c w-100 mx-0 d-flex row align-items-center justify-content-between collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+               <span> Is PakDrive Geniune? </span>
+                <!-- <i class="fas fa-plus "></i> -->
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Scam. ez.
+            </div>
+          </div>
         </div>
-        <div class="form-group mb-4">
-          <label for="exampleInputPassword1">Confirm Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" name="password2" placeholder="password">
-        </div>
-        <div class="form-group form-check mt-3 termsDiv">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-          <label class="form-check-label" for="exampleCheck1">
-            Creating an account means you’re okay with our
-        <a target="_blank" href="/terms">Terms of Service</a>,
-        <a target="_blank" href="/privacy">Privacy Policy</a>, and our default
-        <a target="_blank" href="/notifications">Notification Settings</a>.
-          </label>
-        </div>
-      <div class="submitBtn text-center my-4">
-        <button type="submit" class="btn d-block col-12">Create Account</button>
+       
       </div>
-      <p class="recaptcha-terms">
-        This site is protected by reCAPTCHA and the Google
-        <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-        <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-      </p>
-      </form>
-     
-      
+
     </div>
     </div>
-
-    <div class=" text-white divider d-flex text-center align-items-center my-3">Or</div>
-
-    <div class=" altsign justify-content-between" >
-      <div class="container py-3 px-4 px-sm-5">
-        <div class="row justify-content-between align-items-center ">
-      <p class="mb-0 ml-2 ml-sm-0">Sign up with</p>
-      <div>
-        <a href="#"><i class="fab fa-facebook-f "></i></a>
-        <a href="#"><i class="fab fa-google-plus-g mx-1"></i></a>
-        <a href="#"><i class="fas fa-mobile-alt"></i></a>
-      </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-
-
-
-
+ </div>
+  
   <!-- FOOTER -->
   <Footer id="footer">
     <div class="footer-top text-white py-5">

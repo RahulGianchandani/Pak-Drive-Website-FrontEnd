@@ -3252,6 +3252,7 @@ body {
 
 
 @media (min-width:992px) and (max-width: 1200px){
+
 }
 
 
@@ -4580,4 +4581,115 @@ body {
 
     
 
-/********** AUTO STORE PAGE STARTS ENDS **********/
+/********** AUTO STORE PAGE ENDS **********/
+
+
+
+/********** FAQ PAGE STARTS **********/
+
+    #faq #FAQSection {
+        background-color: #f1f5fd;
+
+    }
+
+    #faq #FAQSection > div > h2:first-child:after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid #e72a1a;
+        width: 120px;
+        bottom: 30px;
+        left: calc(50% - 55px);
+    }
+
+ 
+    
+    
+    #faq #FAQSection #Faqs h5 > button {
+        text-decoration: none;
+    }
+    
+    #faq #FAQSection #Faqs h5 > button.btn-link {
+        color: #45546b;
+        font-weight: 500;
+    }
+    
+    #faq #FAQSection #Faqs h5 > button.btn-link:hover {
+        color: rgb(26, 84, 207);
+    }
+
+    #faq #FAQSection #Faqs h5 > button.collapsed::after {
+        content: "\f067";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        position: absolute;
+        right: 0;
+        color: black;
+        transition: 0.5s;
+        
+    }
+    
+    #faq #FAQSection #Faqs h5 > button.collapsed:hover::after {
+        color: #1439bd;
+    }
+    
+    
+    #faq #FAQSection #Faqs h5 > button::after {
+        content: "\f068";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        position: absolute;
+        right: 0;
+        color: black;
+        transition: 0.5s;
+    }
+    
+    #faq #FAQSection #Faqs h5 > button:hover::after {
+        color: #1439bd;
+    }
+
+
+
+
+
+
+
+
+
+
+ /* MEDIA QUERIES */
+
+
+ @media (min-width:992px) and (max-width: 1200px){
+    
+
+}
+
+
+
+ @media (min-width:768px) and (max-width: 991px){
+   
+
+    
+}
+
+
+
+
+ @media (min-width:576px) and (max-width: 767px){
+  
+    
+    
+}
+
+
+
+
+ @media (max-width:575px){
+
+
+
+}
+
+
+
+/********** FAQ PAGE STARTS ENDS **********/
